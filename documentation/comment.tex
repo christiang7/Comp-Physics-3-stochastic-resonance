@@ -1,0 +1,904 @@
+\begin{comment}
+\\
+\nnu_{\nt}=& \frac{1}{2\Delta \nt} (\nnu{_{\nni}^{\nm+1}} - \nnu{_{\nni}^{\nm-1}} ) \nonumber\\
+\nnu_{\nx} = &\frac{1}{2\Delta \nx} (\nnu{_{\nni+1}^{\nm}} - \nnu{_{\nni-1}^{\nm}} ) \nonumber\\
+\nnu _{\nx \nx \nx } =& \frac{1}{2\Delta \nx^3} (\nnu{_{\nni+2}^{\nm}} - 2\nnu{_{\nni+1}^{\nm}} + 2\nnu{_{\nni-1}^{\nm}}- \nnu{_{\nni-2}^{\nm}} ) \nonumber \\
+\nnu _{\nt} + 6\nnu \nnu _{\nx} + \nnu _{\nx \nx \nx} = & \frac{1}{2\Delta \nt}  (\nnu{_{\nni}^{\nm+1}} - \nnu{_{\nni}^{\nm-1}} ) + \frac{1}{\Delta \nx} (\nnu{_{\nni-1} ^{\nm}} + \nnu{_{\nni}^{\nm}} + \nnu{_{\nni+1}^{\nm}} ) (\nnu{_{\nni+1}^{\nm}} - \nnu{_{\nni-1}^{\nm}} ) +  \nonumber \\
+&       + \frac{1}{2\Delta \nx^3} (\nnu{_{\nni+2}^{\nm}} - 2\nnu{_{\nni+1}^{\nm}} + 2\nnu{_{\nni-1}^{\nm}}- \nnu{_{\nni-2}^{\nm}} ) = 0 \label{eq:NumZabKru}
+
+Program
+
+fouriertrafo
+
+Fourier-Reihen, Teil 6b – DFT gemessener Signale – Herr Fessa
+https://herrfessa.com/2018/11/25/fourier-reihen-teil-6b-dft-gemessener-signale/
+Fourier-Reihen, Teil 3 – Die Berechnung des Spektrums – Herr Fessa
+https://herrfessa.com/2018/03/06/fourier-reihen-teil-3-die-berechnung-des-spektrums/
+
+Diskrete Fourier-Transformation – Wikipedia
+https://de.wikipedia.org/wiki/Diskrete_Fourier-Transformation
+Fourierreihe – Wikipedia
+https://de.wikipedia.org/wiki/Fourierreihe
+Discrete Fourier Transform - Simple Step by Step - YouTube
+https://www.youtube.com/watch?v=mkGsMWi_j4Q
+
+
+random values in c++
+-----
+set the following command before the random function
+-srand(time(NULL));
+
+stold - C++ Reference
+http://www.cplusplus.com/reference/string/stold/
+How to parse command line parameters. - C++ Articles
+http://www.cplusplus.com/articles/DEN36Up4/
+Command line arguments in C/C++ - GeeksforGeeks
+https://www.geeksforgeeks.org/command-line-arguments-in-c-cpp/
+7.13 — Command line arguments | Learn C++
+https://www.learncpp.com/cpp-tutorial/713-command-line-arguments/
+How to parse command line parameters. - C++ Articles
+http://www.cplusplus.com/articles/DEN36Up4/
+How to Parse Command Line Arguments in C++? - Stack Overflow
+https://stackoverflow.com/questions/865668/how-to-parse-command-line-arguments-in-c
+Chapter 31. Boost.Program_options - 1.69.0
+https://www.boost.org/doc/libs/1_69_0/doc/html/program_options.html
+<random> - C++ Reference
+http://www.cplusplus.com/reference/random/
+default_random_engine - C++ Reference
+http://www.cplusplus.com/reference/random/default_random_engine/
+normal_distribution - C++ Reference
+http://www.cplusplus.com/reference/random/normal_distribution/
+Getting Started · Distributions.jl
+https://juliastats.github.io/Distributions.jl/stable/starting.html
+10. API Reference · Pkg.jl
+https://julialang.github.io/Pkg.jl/v1/api/#API-Reference-1
+seeding c++ random values - Ecosia
+https://www.ecosia.org/search?q=seeding+c%2B%2B+random+values&ref=waterfox
+c++ - What is a seed in terms of generating a random number? - Stack Overflow
+https://stackoverflow.com/questions/14914595/what-is-a-seed-in-terms-of-generating-a-random-number
+srand - C++ Reference
+http://www.cplusplus.com/reference/cstdlib/srand/
+Random number generation seeding in C++ - Code Review Stack Exchange
+https://codereview.stackexchange.com/questions/101525/random-number-generation-seeding-in-c
+class - Error "C++ requires a type specifier for all declarations whilst defining methods" - Stack Overflow
+https://stackoverflow.com/questions/19800091/error-c-requires-a-type-specifier-for-all-declarations-whilst-defining-method
+
+
+
+----
+
+<random> - C++ Reference
+http://www.cplusplus.com/reference/random/?kw=random
+default_random_engine - C++ Reference
+http://www.cplusplus.com/reference/random/default_random_engine/
+normal_distribution - C++ Reference
+http://www.cplusplus.com/reference/random/normal_distribution/
+GitHub - vgvassilev/cling: The interactive C++ interpreter Cling
+https://github.com/vgvassilev/cling
+Stochastic dynamical systems - Scholarpedia
+http://www.scholarpedia.org/article/Stochastic_dynamical_systems
+Synchronization - Scholarpedia
+http://www.scholarpedia.org/article/Synchronization
+Phase Model - Scholarpedia
+http://www.scholarpedia.org/article/Phase_models
+Search results for "autocorrelation" - Scholarpedia
+http://www.scholarpedia.org/w/index.php?search=autocorrelation&title=Special%3ASearch
+Van der Pol oscillator - Scholarpedia
+http://www.scholarpedia.org/article/Van_der_Pol_oscillator
+Dynamical systems - Scholarpedia
+http://www.scholarpedia.org/article/Dynamical_systems
+Bifurcation - Scholarpedia
+http://www.scholarpedia.org/article/Bifurcation
+Fluctuations - Scholarpedia
+http://www.scholarpedia.org/article/Fluctuations
+Autokorrelation – Wikipedia
+https://de.wikipedia.org/wiki/Autokorrelation
+Durbin-Watson-Test – Wikipedia
+https://de.wikipedia.org/wiki/Durbin-Watson-Test
+Correlogram - Wikipedia
+https://en.wikipedia.org/wiki/Correlogram
+Correlation and dependence - Wikipedia
+https://en.wikipedia.org/wiki/Correlation_and_dependence
+Convolution - Wikipedia
+https://en.wikipedia.org/wiki/Convolution
+Convolution (computer science) - Wikipedia
+https://en.wikipedia.org/wiki/Convolution_(computer_science)
+Cross-correlation - Wikipedia
+https://en.wikipedia.org/wiki/Cross-correlation
+Autocorrelation
+https://www.investopedia.com/terms/a/autocorrelation.asp
+Autocorrelation - Statistics Solutions
+https://www.statisticssolutions.com/autocorrelation/
+* Autokorrelation | Statista
+https://de.statista.com/statistik/lexikon/definition/28/autokorrelation/
+A Gentle Introduction to Autocorrelation and Partial Autocorrelation
+https://machinelearningmastery.com/gentle-introduction-autocorrelation-partial-autocorrelation/
+Einführung in die Zeitreihenanalyse | SpringerLink
+https://link.springer.com/book/10.1007/3-540-33571-4
+Gaussian noise - Wikipedia
+https://en.wikipedia.org/wiki/Gaussian_noise
+Uncorrelatedness (probability theory) - Wikipedia
+https://en.wikipedia.org/wiki/Uncorrelatedness_(probability_theory)
+Correlation and dependence - Wikipedia
+https://en.wikipedia.org/wiki/Correlation_and_dependence
+Additives weißes gaußsches Rauschen – Wikipedia
+https://de.wikipedia.org/wiki/Additives_wei%C3%9Fes_gau%C3%9Fsches_Rauschen
+Euler-Maruyama-Verfahren – Wikipedia
+https://de.wikipedia.org/wiki/Euler-Maruyama-Verfahren
+Stochastische Differentialgleichung – Wikipedia
+https://de.wikipedia.org/wiki/Stochastische_Differentialgleichung
+Wiener-Prozess – Wikipedia
+https://de.wikipedia.org/wiki/Wiener-Prozess
+Stochastic Differential Equations | SpringerLink
+https://link.springer.com/book/10.1007/978-3-642-14394-6
+Spectral density - Wikipedia
+https://en.wikipedia.org/wiki/Spectral_density
+Euler-Maruyama-Verfahren – Wikipedia
+https://de.wikipedia.org/wiki/Euler-Maruyama-Verfahren
+
+
+\nwfilename{stoch_reso.nw}\nwbegindocs{1}\nwdocspar
+@language c++
+void documentation()
+{
+  // Protocol
+  // starting point
+  // init(T, A, omega, sigma, N,switchi);
+  //init(150, 1, 0.09, 0.5, 1E5,1);
+  // working parameters for kramers rule
+  //init(200, 0, 0.2, 0.4, 1E5,0);
+  // testing kramers rule
+  //init(500, 0.5, 0.2, 0.4, 1E5,1);
+  // task 4 calculating the amplitude of the fouriercomponents for every sigma
+  // investigate 
+  init(500, 0.2, 100, 1.0, 1E6,1);
+  //x.pushback(stold(argv[6])); // initial value
+  x.push_back(0); //startvalue =0
+}
+@language python
+from subprocess import call
+# Methode zum Erzeugen des Programm Quellcodes
+g.execute_shell_commands("echo '----------------Start Programm----------------'")
+#g.execute_shell_commands("notangle -R***.*** ***.nw > ***.*** &")
+
+##### Meta
+'''
+programming language: C++
+methods:
+        - gaussian white noise
+        - stochastic method solver Euler-Maruyama-method
+'''
+
+##### History
+'''
+7.2.2019
+        - Changing of the program code for calculating the Euler-Maruyama-method
+                - changing from deltaW = W_i-W-i-1 to deltaW = gausnoise(0,1)
+                - two new outputs and plotting 
+                        - output T_Omega/2=T_K
+                        - output T_K=1/r_K
+
+
+3.2.2019
+        - start of writing the protocol
+                - started sections: 
+                        - general equations 
+                        - numerical method
+        - start of implementing Kramers formula
+        - checking of the nonlinear properties of the diff equation 
+                - calculating the mean value of x: bar(x)
+
+29.1.2019
+        - rewrite of the parameter delta_t = T/N
+                - delta_t is now calculated through delta_t = T/N
+        - new parameter N, before tstep now N
+        - T is the first parameter , duration of the simulation
+        - N - number if calculations
+        - the white noise calculated with mu = 0 and variance = sqrt(tstep)
+
+23.1.2019
+        - insert random function generateGaussianNoise
+        - fix of the random values
+        - finding of a state or initial values that brings the time series changing only with the noise, creating of a new oscillation 
+
+21.01.2019
+        - Überarbeitung des Programms
+                - Variable T entfernt
+                - Einfügen von Shellparameter
+                - das Lösungschemata der Differentialgleichung richtig implementiert
+                - steps ist jetzt tstep
+                - while zu for schleife umgewandelt
+                - number variable ist ein array --> dadurch extrem schneller geworden
+                - periods ist nun omega also jetzt so wie in der Formel formuliert und eingesetzt
+                        - periods bleibt für eventuell weitere Sachen noch erhalten
+                
+                
+18.01.2019
+        - Start Programmierung
+        - Überarbeitung des Programms von Alex
+    
+'''
+
+
+##### Doku
+## Parameter
+'''
+p1 - T - duration of simulation
+p2 - A - A, amplitude of the oscillator
+p3 - omega - omega, oscillation of the oscillatior
+p4 - sigma - sigma, amplitude of the noise
+p5 - N - number of calculations
+p6 - x_0, start value of x
+
+'''
+## Programm ausführen
+
+## Schwingung mit diesen Parametern here with 1/tstep
+# 40 1 1 0.05 10000 0
+## stochastische Werte bringen die Zeitreihe mal zum kippen, es entsteht eine neue Schwingung, die Zufallswerte übersteigen manchmal den einen Bereich und es kippt in die andere Seite um.
+# 1000 0.35 0.1 0.2 10000 1
+
+#g.execute_shell_commands("clang++ Main.cpp -o stoch_reso && time ./stoch_reso 100 -1.8 0.8 0.4 10000 0.6")#
+#g.execute_shell_commands("clang++ Main.cpp -o stoch_reso && time ./stoch_reso 1000 0 0.3 0.3 10000 0")#
+
+###### here calcluating with T, N, tstep = T/N
+
+## task 0: Testing of A = 0, so we get a random switch between the states 
+#g.execute_shell_commands("clang++ Main.cpp -o stoch_reso && time ./stoch_reso 500 0 0.3 0.5 100000 0.1")
+
+## Probing A >0
+#g.execute_shell_commands("clang++ Main.cpp -o stoch_reso && time ./stoch_reso 150 0 0.09 0.6 1000000 0")
+
+## task 4 nonlinear properties of the diff equation
+# at the amplitude A = 0.40102 it switches randomly between the two states
+# maybe programming a for-loop for the A amplitude depending on the mean of x, diagram of A-bar(x) 
+#g.execute_shell_commands("clang++ Main.cpp -o stoch_reso && time ./stoch_reso 140 0.40102 0.05 6 10000000 0")
+
+##Alexs program testing
+g.execute_shell_commands("clang++ Main_Alex_synth.cpp -o stoch_reso_alex_synth && time ./stoch_reso_alex_synth")
+#g.execute_shell_commands("clang++ Main.cpp -o stoch_reso && time ./stoch_reso")
+#g.execute_shell_commands("clang++ Main_Alex_newest.cpp -o stoch_reso_alex_newest && time ./stoch_reso_alex_newest")
+
+### Plot der Daten
+
+g.execute_shell_commands("echo '----------------Gnuplot Start----------------'")
+g.execute_shell_commands("gnuplot plotting.plt -p &")
+g.execute_shell_commands("gnuplot plotting-a_k-b_k.plt -p &")
+g.execute_shell_commands("gnuplot plotting-ampl.plt -p &")
+g.execute_shell_commands("echo '----------------Gnuplot Ende ----------------'")
+
+
+\nwenddocs{}\nwbegindocs{2}\nwdocspar
+@language python
+##### Programm zum Start der Versionisierung des Codes
+from subprocess import call
+g.execute_shell_commands("notangle -RVersions.conf stoch_reso.nw > Versions.conf &")
+g.execute_shell_commands("/home/christian/Programme/storeBackup/bin/storeBackup.pl -f Versions.conf &")
+
+\nwenddocs{}\nwbegindocs{3}\nwdocspar
+
+@language maple
+\nwenddocs{}\nwbegincode{4}\sublabel{NW4PIMRJ-3YPuMQ-1}\nwmargintag{{\nwtagstyle{}\subpageref{NW4PIMRJ-3YPuMQ-1}}}\moddef{Versions.conf~{\nwtagstyle{}\subpageref{NW4PIMRJ-3YPuMQ-1}}}\endmoddef\nwstartdeflinemarkup\nwenddeflinemarkup
+
+# configuration file for storeBackup.pl
+# Generated by storeBackup.pl, 3.5
+
+####################
+### explanations ###
+####################
+
+# You can set a value specified with '-cf_key' (eg. logFiles) and
+# continue at the next lines which have to begin with a white space:
+# logFiles = /var/log/messages  /var/log/cups/access_log
+#      /var/log/cups/error_log
+# One ore more white spaces are interpreted as separators.
+# You can use single quotes or double quotes to group strings
+# together, eg. if you have a filename with a blank in its name:
+# logFiles = '/var/log/my strage log'
+# will result in one filename, not in three.
+# If an option should have *no value*, write:
+# logFiles =
+# If you want the default value, comment it:
+logFile = Versions-Programm.log
+
+# You can also use environment variables, like $XXX or $\{XXX\} like in
+# a shell. Single quotes will mask environment variables, while double
+# quotes will not.
+# You can mask $, \{, \}, ", ' with a backslash (\\), eg. \\$
+# Lines beginning with a '#' or ';' are ignored (use this for comments)
+#
+# You can overwrite settings in the command line. You can remove
+# the setting also in the command by using the --unset feature, eg.:
+# '--unset doNotDelete' or '--unset --doNotDelete'
+
+#####################
+### configuration ###
+#####################
+
+# source directory (*** must be specified ***)
+sourceDir=/home/christian/Dropbox/Comp-Physics-3/
+
+# top level directory of all linked backups (*** must be specified ***)
+# storeBackup must know for consistency checking where all your backups
+# are. This is done to make sure that your backups are consistent if you
+# used --lateLinks.
+backupDir=/home/christian/Dropbox/Comp-Physics-3/
+
+# ------------------------------------------------------------------------
+# you do not need specify the options below to get a running configuration
+# (but they give you more features and more control)
+#
+
+
+# series directory, default is 'default'
+# relative path from backupDir
+series=Versions
+
+# directory for temporary file, default is /tmp
+;tmpDir=
+
+# List of other backup directories to consider for
+# hard linking. Relative path from backupDir!
+# Format (examples):
+# backupSeries/2002.08.29_08.25.28 -> consider this backup
+# or
+# 0:backupSeries    -> last (youngest) backup in <backupDir>/backupSeries
+# 1:backupSeries    -> first before last backup in <backupDir>/backupSeries
+# n:backupSeries    -> n'th before last backup in <backupDir>/backupSeries
+# 3-5:backupSeries  -> 3rd, 4th and 5th in <backupDir>/backupSeries
+# all:backupSeries  -> all in <backupDir>/backupSeries
+# This option is useful, if you want to explicitly hard link
+# to backup series from different backups. You can specify eg. with
+# 0:myBackup to the last backup of series 'myBackup'. If you specify
+# backup series with otherBackupSeries, then only these backups will be
+# used for hard linking.
+# You can also use wildcards in series names. See documentation,
+# section 'Using Wildcards for Replication' for details.
+# Default value is to link to the last backup of all series stored in
+# 'backupDir'.
+;otherBackupSeries=
+
+# lock file, if exist, new instances will finish if
+# an old is already running, default is /tmp/storeBackup.lock
+;lockFile=
+
+# remove the lock files before deleting old backups
+# default ('no') is to delete the lock file after deleting
+# possible values are 'yes' and 'no'
+;unlockBeforeDel=
+
+# continue if one or more of the exceptional directories
+# do not exist (no is stopping processing)
+# default is 'no', can be 'yes' or 'no'
+;contExceptDirsErr=
+
+# Directories to exclude from the backup (relative path inside of the backup).
+# You can use shell type wildcards.
+# These directories have to be separated by space or newline.
+exceptDirs=Versions
+
+# Directories to include in the backup (relative path inside of the backup).
+# You can use shell type wildcards.
+# These directories have to be separated by space or newline.
+;includeDirs=
+
+# rule for excluding files / only for experienced administrators
+# !!! see README file 'including / excluding files and directories'
+# EXAMPLE: 
+# searchRule = ( '$size > &::SIZE("3M")' and '$uid eq "hjc"' ) or
+#    ( '$mtime > &::DATE("3d4h")' and not '$file =~ m#/tmp/#' )'
+;exceptRule=
+
+# For explanations, see 'exceptRule'.
+;includeRule=
+
+# write a file name .storeBackup.notSaved.bz2 with the
+# names of all skipped files, default is 'no', can be 'yes' or 'no'
+;writeExcludeLog=
+
+# do not save the specified types of files, allowed: Sbcfpl
+# S - file is a socket
+# b - file is a block special file
+# c - file is a character special file
+# f - file is a plain file
+# p - file is a named pipe
+# l - file is a symbolic link
+# Spbc can only be backed up if GNU copy is available.
+;exceptTypes=
+
+# save the specified type of files in an archive instead saving
+# them directly in the file system
+# use this if you want to backup those file types but your target
+# file or transport (eg. sshfs or non gnu-cp) system does not support
+# those types of file
+#   S - file is a socket
+#   b - file is a block special file
+#   c - file is a character special file
+#   p - file is a named pipe
+#   l - file is a symbolic link
+# you also have to set specialTypeArchiver when using this option
+;archiveTypes=
+
+
+# possible values are 'cpio', 'tar', 'none'. default is 'cpio'
+# tar is not able to archive sockets
+# cpio is not part of the actual posix standard any more
+;specialTypeArchiver=
+
+# Activate this option if your system's cp is a full-featured GNU
+# version. In this case you will be able to also backup several
+# special file types like sockets.
+# Possible values are 'yes' and 'no'. Default is 'no'
+cpIsGnu=yes
+
+# make a hard link to existing, identical symlinks in old backups
+# use this, if your operating system supports this (linux does)
+# Possible values are 'yes' and 'no'. Default is 'no'
+;linkSymlinks=
+
+# exec job before starting the backup, checks lockFile (-L) before
+# starting (e.g. can be used for rsync) stops execution if job returns
+# exit status != 0
+;precommand=
+
+# exec job after finishing the backup, but before erasing of old
+# backups reports if job returns exit status != 0
+;postcommand=
+
+# follow symbolic links like directories up to depth 0 -> do not
+# follow links
+;followLinks=
+
+# only store the contents of file systems named by
+# sourceDir and symlinked via followLinks
+# possible values are 'yes' and 'no'; default is 'no'
+;stayInFileSystem=
+
+# use this only if you write your backup over a high latency line
+# like a vpn over the internet
+# storebackup will use more parallelization at the cost of more
+# cpu power
+# possible values are 'yes' and 'no'; default is 'no'
+;highLatency=
+
+# If this option is disabled, then the files in the backup will not
+# neccessarily have the same permissions and owner as the originals.
+# This speeds up backups on network drives a lot. Correct permissions
+# are restored by storeBackupRecover.pl no matter what this option is
+# set to. Default is 'no'
+;ignorePerms=
+
+# suppress (unwanted) warnings in the log files;
+# to suppress warnings, the following keys can be used:
+#   excDir (suppresses the warning that excluded directories
+#          do not exist)
+#   fileChange (suppresses the warning that a file has changed during
+#              the backup)
+#   crSeries (suppresses the warning that storeBackup had to create the
+#            'default' series)
+#   hashCollision (suppresses the warning if a possible
+#                 hash collision is detected)
+#   fileNameWithLineFeed (suppresses the warning if a filename
+#                        contains a line feed)
+#    use_DB_File (suppresses the warning that you should install
+#                 perl module DB_File for better perforamnce)
+#    use_MLDBM (suppresses the warning that you should install
+#               perl module MLDBM if you want to use rule functions
+#               MARK_DIR or MARK_DIR_REC together with option saveRAM)
+#    use_IOCompressBzip2 (suppresses the warning that you should
+#                         instal perl module IO::Compress::Bzip2
+#                         for better performance)
+#    noBackupForPeriod (suppresses warning that there are
+#                       no backups for certain periods when using
+#                       option keepRelative)
+#  This option can be repeated multiple times on the command line.
+#  Example usage in conf file:
+#  suppressWarning = excDir fileChange crSeries hashCollision
+#  By default no warnings are suppressed.
+;suppressWarning=
+
+# do *not* write hard links to existing files in the backup
+# during the backup (yes|no)
+# you have to call the program storeBackupUpdateBackup.pl
+# later on your server if you set this flag to 'yes'
+# you have to run storeBackupUpdateBackup.pl later - see
+# description for that program
+# default = no: do not write hard links
+;lateLinks=
+
+# only in combination with --lateLinks
+# compression from files >= size will be done later,
+# the file is (temporarily) copied into the backup
+# default = no: no late compression
+;lateCompress=
+
+# repair simple inconsistencies (from lateLinks) automatically
+# without requesting the action
+# default = no, no automatic repair
+;autorepair=
+
+# Files with specified suffix for which storeBackup will make an md5 check
+# on blocks of that file. Executed after --checkBlocksRule(n)
+;checkBlocksSuffix=
+
+# Only check files specified in --checkBlocksSuffix if there
+# file size is at least this value, default is 100M
+;checkBlocksMinSize=
+
+# Block size for files specified with --checkBlocksSuffix
+# default is 1M (1 megabyte)
+;checkBlocksBS=
+
+# if set, the blocks generated due to checkBlocksSuffix are compressed
+# Possible values are 'check, 'yes' and 'no'. Default is 'no'
+# check uses COMRESSION_CHECK (see option compressSuffix)
+;checkBlocksCompr=
+
+# Read files specified here in parallel to "normal" ones.
+# This only makes sense if they are on a different disk.
+# Default value is 'no'
+;checkBlocksParallel=
+
+# length of queue to store files before block checking,
+# default = 1000
+;queueBlock=
+
+# Files for which storeBackup will make an md5 check depending
+# on blocks of that file.
+# The rules are checked from rule 1 to rule 5. The first match is used
+# !!! see README file 'including / excluding files and directories'
+# EXAMPLE: 
+# searchRule = ( '$size > &::SIZE("3M")' and '$uid eq "hjc"' ) or
+#    ( '$mtime > &::DATE("3d4h")' and not '$file =~ m#/tmp/#' )'
+;checkBlocksRule0=
+
+# Block size for option checkBlocksRule
+# default is 1M (1 megabyte)
+;checkBlocksBS0=
+
+# if set to 'yes', blocks generated due to this rule will be compressed
+# possible values: 'check', 'yes' or 'no', default is 'no'
+# check users COMRESSION_CHECK (see option compressSuffix)
+;checkBlocksCompr0=
+
+# Filter for reading the file to treat as a blocked file
+# eg.   gzip -d   if the file is compressed. Default is no read filter.
+;checkBlocksRead0=
+
+# Read files specified here in parallel to "normal" ones.
+# This only makes sense if they are on a different disk.
+# Default value is 'no'
+;checkBlocksParallel0=
+
+;checkBlocksRule1=
+;checkBlocksBS1=
+;checkBlocksCompr1=
+;checkBlocksRead1=
+;checkBlocksParallel1=
+
+;checkBlocksRule2=
+;checkBlocksBS2=
+;checkBlocksCompr2=
+;checkBlocksRead2=
+;checkBlocksParallel2=
+
+;checkBlocksRule3=
+;checkBlocksBS3=
+;checkBlocksCompr3=
+;checkBlocksRead3=
+;checkBlocksParallel3=
+
+;checkBlocksRule4=
+;checkBlocksBS4=
+;checkBlocksCompr4=
+;checkBlocksRead4=
+;checkBlocksParallel4=
+
+#  List of Devices for md5 ckeck depending on blocks of these
+#  Devices (eg. /dev/sdb or /dev/sdb1)
+;checkDevices0=
+
+# Directory where to store the backups of the devices
+;checkDevicesDir0=
+
+# Block size of option checkDevices0
+# default is 1M (1 megabyte)
+;checkDevicesBS0=
+
+# if set, the blocks generated due to checkDevices0 are compressed
+# possible values: 'check', 'yes' or 'no', default is 'no'
+# check users COMRESSION_CHECK (see option compressSuffix)
+;checkDevicesCompr0=
+
+# Read devices specified here in parallel to "normal" ones.
+# This only makes sense if they are on a different disk.
+# Default value is 'no'
+;checkDevicesParallel0=
+
+;checkDevices1=
+;checkDevicesDir1=
+;checkDevicesBS1=
+;checkDevicesCompr1=
+;checkDevicesParallel1=
+
+;checkDevices2=
+;checkDevicesDir2=
+;checkDevicesBS2=
+;checkDevicesCompr2=
+;checkDevicesParallel2=
+
+;checkDevices3=
+;checkDevicesDir3=
+;checkDevicesBS3=
+;checkDevicesCompr3=
+;checkDevicesParallel3=
+
+;checkDevices4=
+;checkDevicesDir4=
+;checkDevicesBS4=
+;checkDevicesCompr4=
+;checkDevicesParallel4=
+
+# write temporary dbm files in --tmpdir
+# use this if you have not enough RAM, default is no
+;saveRAM=
+
+# compress command (with options), default is <bzip2>
+;compress=
+
+# uncompress command (with options), default is <bzip2 -d>
+;uncompress=
+
+# postfix to add after compression, default is <.bz2>
+;postfix=
+
+# do not compress files with the following
+# suffix (uppercase included):
+# (if you set this to '.*', no files will be compressed)
+# Default is \\.zip \\.bz2 \\.gz \\.tgz \\.jpg \\.gif \\.tiff? \\.mpe?g \\.mp[34] \\.mpe?[34] \\.ogg \\.gpg \\.png \\.lzma \\.xz \\.mov
+;exceptSuffix=
+
+# like --exceptSuffix, but do not replace defaults, add
+;addExceptSuffix=
+
+
+# Like --exceptSuffix, but mentioned files will be
+# compressed. If you chose this option, then files not
+# affected be execptSuffix, addExceptSuffix or this Suffixes
+# will be rated by the rule function COMPRESS_CHECK wether
+# to compress or not
+;compressSuffix=
+
+# Files smaller than this size will never be compressed but always
+# copied. Default is 1024
+minCompressSize=10000000
+
+# alternative to exceptSuffix, comprRule and minCompressSize:
+# definition of a rule which files will be compressed
+# If this rule is set, exceptSuffix, addExceptSuffix
+# and minCompressSize are ignored.
+# Default rule _generated_ from the options above is:
+# comprRule = '$size > 1024' and not
+#   '$file =~ /.zip\\Z|.bz2\\Z|.gz\\Z|.tgz\\Z|.jpg\\Z|.gif\\Z|.tiff\\Z|.tif\\Z|.mpeg\\Z|.mpg\\Z|.mp3\\Z|.ogg\\Z|.gpg\\Z|.png\\Z/i'
+# or (eg. if compressSuffix = .doc .pdf):
+#   '$size > 1024 and not $file =~ /.zip\\Z|.bz2\\Z|.gz\\Z|.tgz\\Z|.jpg\\Z|.gif\\Z|.tiff\\Z|.tif\\Z|.mpeg\\Z|.mpg\\Z|.mp3\\Z|.ogg\\Z|.gpg\\Z|.png\\Z/i and ( $file =~ /.doc\\Z|.pdf\\Z/i or &::COMPRESSION_CHECK($file) )'
+;comprRule='$size > &::Size("100M")'
+
+# maximal number of parallel compress operations,
+# default = choosen automatically
+;noCompress=
+
+# length of queue to store files before compression,
+# default = 1000
+;queueCompress=
+
+# maximal number of parallel copy operations,
+# default = 1
+;noCopy=
+
+# length of queue to store files before copying,
+# default = 1000
+;queueCopy=
+
+# write statistics about used space in log file
+# default is 'no'
+;withUserGroupStat=
+
+# write statistics about used space in name file
+#                   will be overridden each time
+# if no file name is given, nothing will be written
+# format is:
+# identifier uid userName value
+# identifier gid groupName value
+;userGroupStatFile=
+
+# default is 'no', if you do not want to compress, say 'yes'
+;doNotCompressMD5File=
+
+# permissions of .md5checkSumFile, default is 0600
+;chmodMD5File=
+
+# verbose messages, about exceptRule and includeRule
+# and added files. default is 'no'
+;verbose=
+
+# generate debug messages, levels are 0 (none, default),
+# 1 (some), 2 (many) messages
+;debug=
+
+# reset access time in the source directory - but this will
+# change ctime (time of last modification of file status
+# information
+# default is 'no', if you want this, say 'yes'
+;resetAtime=
+
+# do not delete any old backup (e.g. specified via --keepAll or
+# --keepWeekday) but print a message. This is for testing configuratons
+# or if you want to delete old backups with storeBackupDel.pl.
+# Values are 'yes' and 'no'. Default is 'no' which means to not delete.
+doNotDelete=no
+
+# delete old backups which have not been finished
+# this will not happen if doNotDelete is set
+# Values are 'yes' and 'no'. Default is 'no' which means not to delete.
+;deleteNotFinishedDirs=
+
+# keep backups which are not older than the specified amount
+# of time. This is like a default value for all days in
+# --keepWeekday. Begins deleting at the end of the script
+# the time range has to be specified in format 'dhms', e.g.
+# 10d4h means 10 days and 4 hours
+# default = 30d;
+# An archive flag is not possible with this parameter (see below).
+;keepAll=9999999999999999999999d
+
+# keep backups for the specified days for the specified
+# amount of time. Overwrites the default values choosen in
+# --keepAll. 'Mon,Wed:40d Sat:60d10m' means:
+# keep backups from Mon and Wed 40days + 5mins
+# keep backups from Sat 60days + 10mins
+# keep backups from the rest of the days like spcified in
+# --keepAll (default 30d)
+# you can also set the 'archive flag'.
+# 'Mon,Wed:a40d5m Sat:60d10m' means:
+# keep backups from Mon and Wed 40days + 5mins + 'archive'
+# keep backups from Sat 60days + 10mins
+# keep backups from the rest of the days like specified in
+# --keepAll (default 30d)
+# If you also use the 'archive flag' it means to not
+# delete the affected directories via --keepMaxNumber:
+# a10d4h means 10 days and 4 hours and 'archive flag'
+;keepWeekday=
+
+# do not delete the first backup of a year
+# format is timePeriod with possible 'archive flag'
+;keepFirstOfYear=
+
+# do not delete the last backup of a year
+# format is timePeriod with possible 'archive flag'
+;keepLastOfYear=
+
+# do not delete the first backup of a month
+# format is timePeriod with possible 'archive flag'
+;keepFirstOfMonth=
+
+# do not delete the last backup of a month
+# format is timePeriod with possible 'archive flag'
+;keepLastOfMonth=
+
+# default: 'Sun'. This value is used for calculating
+# --keepFirstOfWeek and --keepLastOfWeek
+;firstDayOfWeek=
+
+# do not delete the first backup of a week
+# format is timePeriod with possible 'archive flag'
+;keepFirstOfWeek=
+
+# do not delete the last backup of a week
+# format is timePeriod with possible 'archive flag'
+;keepLastOfWeek=
+
+# keep multiple backups of one day up to timePeriod
+# format is timePeriod, 'archive flag' is not possible
+# default is 7d
+;keepDuplicate=
+
+# Keep that miminum of backups. Multiple backups of one
+# day are counted as one backup. Default is 10.
+keepMinNumber=10000000000
+
+# Try to keep only that maximum of backups. If you have more
+# backups, the following sequence of deleting will happen:
+# - delete all duplicates of a day, beginning with the old
+#   once, except the oldest of every day
+# - if this is not enough, delete the rest of the backups
+#   beginning with the oldest, but *never* a backup with
+#   the 'archive flag' or the last backup
+;keepMaxNumber=
+
+# Alternative deletion scheme. If you use this option, all
+# other keep options are ignored. Preserves backups depending
+# on their *relative* age. Example:
+#
+#   keepRelative = 1d 7d 61d 92d
+#
+# will (try to) ensure that there is always
+#
+# - One backup between 1 day and 7 days old
+# - One backup between 5 days and 2 months old
+# - One backup between ~2 months and ~3 months old
+#
+# If there is no backup for a specified timespan (e.g. because the
+# last backup was done more than 2 weeks ago) the next older backup
+# will be used for this timespan.
+;keepRelative =
+
+# print progress report after each 'number' files
+# Default is 0, which means no reports.
+# additional you may add a time frame after which a message is printed
+# if you want to print a report each 1000 files and after
+# one minute and 10 seconds, use: -P 1000,1m10s
+;progressReport=
+
+# print depth of actual readed directory during backup
+# default is 'no', values are 'yes' and 'no'
+;printDepth=
+
+# ignore read errors in source directory; not readable
+# directories does not cause storeBackup.pl to stop processing
+# Values are 'yes' and 'no'. Default is 'no' which means not
+# to ignore them
+;ignoreReadError=
+
+# after a successful backup, set a symbolic link to
+# that backup and delete existing older links with the
+# same name
+;linkToRecent=
+
+# name of the log file (default is STDOUT)
+;logFile=
+
+# if you specify a log file with --logFile you can
+# additionally print the output to STDOUT with this flag
+# Values are 'yes' and 'no'. Default is 'no'.
+;plusLogStdout=
+
+# output in logfile without time: 'yes' or 'no'
+# default = no
+;suppressTime=
+
+# maximal length of log file, default = 1e6
+;maxFilelen=
+
+# number of old log files, default = 5
+;noOfOldFiles=
+
+# save log files with date and time instead of deleting the
+# old (with [-noOfOldFiles]): 'yes' or 'no', default = 'no'
+;saveLogs=
+
+# compress saved log files (e.g. with 'gzip -9')
+# default is 'bzip2'
+;compressWith=
+
+# write log file (also) in the backup directory:
+# 'yes' or 'no', default is 'no'
+# Be aware that this log does not contain all error
+# messages of the one specified with --logFile!
+# Some errors are possible before the backup
+# directory is created.
+;logInBackupDir=
+
+# compress the log file in the backup directory:
+# 'yes' or 'no', default is 'no'
+;compressLogInBackupDir=
+
+# filename to use for writing the above log file,
+# default is '.storeBackup.log'
+;logInBackupDirFileName=
+
+
+
+\nwnotused{Versions.conf}\nwendcode{}\nwbegindocs{5}\nwdocspar
+
+\end{comment}

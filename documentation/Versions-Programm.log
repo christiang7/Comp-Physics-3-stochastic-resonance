@@ -1,0 +1,1260 @@
+BEGIN     2019.02.08 09:54:44  2312 backing up directory </home/home/christian/Gedankenspeicher/Comp-Physics-3> to </home/home/christian/Gedankenspeicher/Comp-Physics-3/Versions>
+VERSION   2019.02.08 09:54:44  2312 storeBackup.pl, 3.5
+INFO      2019.02.08 09:54:45  2312 setting ARG_MAX to 63488 (Linux)
+INFO      2019.02.08 09:54:45  2312 comprRule = $size > 10000000 and not $file =~ /\.zip\Z|\.bz2\Z|\.gz\Z|\.tgz\Z|\.jpg\Z|\.gif\Z|\.tiff?\Z|\.mpe?g\Z|\.mp[34]\Z|\.mpe?[34]\Z|\.ogg\Z|\.gpg\Z|\.png\Z|\.lzma\Z|\.xz\Z|\.mov\Z/i
+INFO      2019.02.08 09:54:45  2312 scanning directory </home/home/christian/Gedankenspeicher/Comp-Physics-3> for existing backups
+INFO      2019.02.08 09:54:45  2312 scanning directory </home/home/christian/Gedankenspeicher/Comp-Physics-3/Versions> for existing backups
+STATISTIC 2019.02.08 09:54:45  2312 found 1 backup series, 5 backups, 0 renamed backups
+INFO      2019.02.08 09:54:45  2312 consistency check finished successfully
+INFO      2019.02.08 09:54:45  2312 found no references to backups from lateLinks that need storeBackupUpdateBackup run
+INFO      2019.02.08 09:54:45  2312 excluding <Versions>:
+INFO      2019.02.08 09:54:45  2312     excluding </home/home/christian/Gedankenspeicher/Comp-Physics-3/Versions>
+INFO      2019.02.08 09:54:45  2312 target directory </home/home/christian/Gedankenspeicher/Comp-Physics-3/Versions> is in exception </home/home/christian/Gedankenspeicher/Comp-Physics-3/Versions> of source directory </home/home/christian/Gedankenspeicher/Comp-Physics-3>, ok
+INFO      2019.02.08 09:54:45  2312 creating lock file </tmp/storeBackup.lock>
+INFO      2019.02.08 09:54:45  2312 analysis of old Backups in </home/home/christian/Gedankenspeicher/Comp-Physics-3/Versions>:
+INFO      2019.02.08 09:54:45  2312    (5) Fri 2019.01.18_20.09.55 (20d13h): keepMinNumber6, keepWeekDays(30d)
+INFO      2019.02.08 09:54:45  2312    (4) Mon 2019.01.21_18.16.55 (17d15h): keepMinNumber5, keepWeekDays(30d)
+INFO      2019.02.08 09:54:45  2312    (3) Tue 2019.01.22_00.44.11 (17d9h): keepMinNumber4, keepWeekDays(30d)
+INFO      2019.02.08 09:54:45  2312    (2) Wed 2019.01.23_22.19.51 (15d11h): keepMinNumber3, keepWeekDays(30d)
+INFO      2019.02.08 09:54:45  2312    (1) Sun 2019.02.03_22.53.15 (4d11h): keepMinNumber2, keepWeekDays(30d)
+INFO      2019.02.08 09:54:45  2312    (0) Fri 2019.02.08_09.54.45 (0d0h): keepMinNumber1, keepWeekDays(30d)
+INFO      2019.02.08 09:54:45  2312 start reading /home/home/christian/Gedankenspeicher/Comp-Physics-3/Versions/2019.02.03_22.53.15/.md5CheckSums.bz2
+INFO      2019.02.08 09:54:45  2312 finished reading /home/home/christian/Gedankenspeicher/Comp-Physics-3/Versions/2019.02.03_22.53.15/.md5CheckSums.bz2 (22 entries)
+INFO      2019.02.08 09:54:45  2312 21 entries in dbm files
+INFO      2019.02.08 09:54:45  2312 0 entries in dbm block files
+INFO      2019.02.08 09:54:45  2312 setting atime, mtime of directories ...
+INFO      2019.02.08 09:54:45  2312 syncing ...
+STATISTIC 2019.02.08 09:54:46  2312  [sec] |      user|    system
+STATISTIC 2019.02.08 09:54:46  2312 -------+----------+----------
+STATISTIC 2019.02.08 09:54:46  2312 process|      0.18|      0.04
+STATISTIC 2019.02.08 09:54:46  2312 childs |      0.12|      0.02
+STATISTIC 2019.02.08 09:54:46  2312 -------+----------+----------
+STATISTIC 2019.02.08 09:54:46  2312 sum    |      0.30|      0.06 => 0.36 (0s)
+STATISTIC 2019.02.08 09:54:46  2312                    directories = 1
+STATISTIC 2019.02.08 09:54:46  2312                          files = 21
+STATISTIC 2019.02.08 09:54:46  2312                 symbolic links = 0
+STATISTIC 2019.02.08 09:54:46  2312                     late links = 0
+STATISTIC 2019.02.08 09:54:46  2312                    named pipes = 0
+STATISTIC 2019.02.08 09:54:46  2312                        sockets = 0
+STATISTIC 2019.02.08 09:54:46  2312                  block devices = 0
+STATISTIC 2019.02.08 09:54:46  2312              character devices = 0
+STATISTIC 2019.02.08 09:54:46  2312      new internal linked files = 0
+STATISTIC 2019.02.08 09:54:46  2312               old linked files = 13
+STATISTIC 2019.02.08 09:54:46  2312                unchanged files = 13
+STATISTIC 2019.02.08 09:54:46  2312                   copied files = 8
+STATISTIC 2019.02.08 09:54:46  2312               compressed files = 0
+STATISTIC 2019.02.08 09:54:46  2312                  blocked files = 0
+STATISTIC 2019.02.08 09:54:46  2312    excluded files because rule = 0 (0.0 )
+STATISTIC 2019.02.08 09:54:46  2312    included files because rule = 0 (0.0 )
+STATISTIC 2019.02.08 09:54:46  2312         max size of copy queue = 1
+STATISTIC 2019.02.08 09:54:46  2312  max size of compression queue = 0
+STATISTIC 2019.02.08 09:54:46  2312            calculated md5 sums = 19
+STATISTIC 2019.02.08 09:54:46  2312                    forks total = 1
+STATISTIC 2019.02.08 09:54:46  2312                      forks md5 = 1
+STATISTIC 2019.02.08 09:54:46  2312                     forks copy = 0
+STATISTIC 2019.02.08 09:54:46  2312                    forks bzip2 = 0
+STATISTIC 2019.02.08 09:54:46  2312                  sum of source = 5.5M (5731423)
+STATISTIC 2019.02.08 09:54:46  2312              sum of target all = 5.5M (5731423)
+STATISTIC 2019.02.08 09:54:46  2312              sum of target all = 100.00%
+STATISTIC 2019.02.08 09:54:46  2312              sum of target new = 266k (272450)
+STATISTIC 2019.02.08 09:54:46  2312              sum of target new = 4.75%
+STATISTIC 2019.02.08 09:54:46  2312             sum of md5ed files = 268k (274431)
+STATISTIC 2019.02.08 09:54:46  2312             sum of md5ed files = 4.79%
+STATISTIC 2019.02.08 09:54:46  2312     sum internal linked (copy) = 0.0  (0)
+STATISTIC 2019.02.08 09:54:46  2312    sum internal linked (compr) = 0.0  (0)
+STATISTIC 2019.02.08 09:54:46  2312          sum old linked (copy) = 1.4M (1420937)
+STATISTIC 2019.02.08 09:54:46  2312         sum old linked (compr) = 3.9M (4038036)
+STATISTIC 2019.02.08 09:54:46  2312           sum unchanged (copy) = 1.4M (1420937)
+STATISTIC 2019.02.08 09:54:46  2312          sum unchanged (compr) = 3.9M (4038036)
+STATISTIC 2019.02.08 09:54:46  2312                 sum new (copy) = 266k (272450)
+STATISTIC 2019.02.08 09:54:46  2312                sum new (compr) = 0.0  (0)
+STATISTIC 2019.02.08 09:54:46  2312     sum new (compr), orig size = 0.0  (0)
+STATISTIC 2019.02.08 09:54:46  2312                 sum new / orig = 100.00%
+STATISTIC 2019.02.08 09:54:46  2312       size of md5CheckSum file = 1.2k (1253)
+STATISTIC 2019.02.08 09:54:46  2312     size of temporary db files = 0.0  (0)
+STATISTIC 2019.02.08 09:54:46  2312            deleted old backups = 0
+STATISTIC 2019.02.08 09:54:46  2312            deleted directories = 0
+STATISTIC 2019.02.08 09:54:46  2312                  deleted files = 0
+STATISTIC 2019.02.08 09:54:46  2312           (only) removed links = 0
+STATISTIC 2019.02.08 09:54:46  2312 freed space in old directories = 0.0  (0)
+STATISTIC 2019.02.08 09:54:46  2312       add. used space in files = 267k (273703)
+STATISTIC 2019.02.08 09:54:46  2312                backup duration = 1s
+STATISTIC 2019.02.08 09:54:46  2312 over all files/sec (real time) = 21.00
+STATISTIC 2019.02.08 09:54:46  2312  over all files/sec (CPU time) = 58.33
+STATISTIC 2019.02.08 09:54:46  2312                      CPU usage = 36.00%
+INFO      2019.02.08 09:54:46  2312 removing lock file </tmp/storeBackup.lock>
+END       2019.02.08 09:54:46  2312 backing up directory </home/home/christian/Gedankenspeicher/Comp-Physics-3> to </home/home/christian/Gedankenspeicher/Comp-Physics-3/Versions/2019.02.08_09.54.45>
+BEGIN     2019.02.25 15:28:58 13952 backing up directory </home/home/christian/Gedankenspeicher/Comp-Physics-3> to </home/home/christian/Gedankenspeicher/Comp-Physics-3/Versions>
+VERSION   2019.02.25 15:28:58 13952 storeBackup.pl, 3.5
+INFO      2019.02.25 15:28:58 13952 setting ARG_MAX to 63488 (Linux)
+INFO      2019.02.25 15:28:59 13952 comprRule = $size > 10000000 and not $file =~ /\.zip\Z|\.bz2\Z|\.gz\Z|\.tgz\Z|\.jpg\Z|\.gif\Z|\.tiff?\Z|\.mpe?g\Z|\.mp[34]\Z|\.mpe?[34]\Z|\.ogg\Z|\.gpg\Z|\.png\Z|\.lzma\Z|\.xz\Z|\.mov\Z/i
+INFO      2019.02.25 15:28:59 13952 scanning directory </home/home/christian/Gedankenspeicher/Comp-Physics-3> for existing backups
+INFO      2019.02.25 15:28:59 13952 scanning directory </home/home/christian/Gedankenspeicher/Comp-Physics-3/.vscode> for existing backups
+INFO      2019.02.25 15:28:59 13952 scanning directory </home/home/christian/Gedankenspeicher/Comp-Physics-3/Versions> for existing backups
+STATISTIC 2019.02.25 15:28:59 13952 found 2 backup series, 6 backups, 0 renamed backups
+INFO      2019.02.25 15:28:59 13952 consistency check finished successfully
+INFO      2019.02.25 15:28:59 13952 found no references to backups from lateLinks that need storeBackupUpdateBackup run
+INFO      2019.02.25 15:28:59 13952 excluding <Versions>:
+INFO      2019.02.25 15:28:59 13952     excluding </home/home/christian/Gedankenspeicher/Comp-Physics-3/Versions>
+INFO      2019.02.25 15:28:59 13952 target directory </home/home/christian/Gedankenspeicher/Comp-Physics-3/Versions> is in exception </home/home/christian/Gedankenspeicher/Comp-Physics-3/Versions> of source directory </home/home/christian/Gedankenspeicher/Comp-Physics-3>, ok
+INFO      2019.02.25 15:28:59 13952 creating lock file </tmp/storeBackup.lock>
+INFO      2019.02.25 15:28:59 13952 analysis of old Backups in </home/home/christian/Gedankenspeicher/Comp-Physics-3/Versions>:
+INFO      2019.02.25 15:28:59 13952    (6) Fri 2019.01.18_20.09.55 (37d19h): keepMinNumber7
+INFO      2019.02.25 15:28:59 13952    (5) Mon 2019.01.21_18.16.55 (34d21h): keepMinNumber6
+INFO      2019.02.25 15:28:59 13952    (4) Tue 2019.01.22_00.44.11 (34d14h): keepMinNumber5
+INFO      2019.02.25 15:28:59 13952    (3) Wed 2019.01.23_22.19.51 (32d17h): keepMinNumber4
+INFO      2019.02.25 15:28:59 13952    (2) Sun 2019.02.03_22.53.15 (21d16h): keepMinNumber3, keepWeekDays(30d)
+INFO      2019.02.25 15:28:59 13952    (1) Fri 2019.02.08_09.54.45 (17d5h): keepMinNumber2, keepWeekDays(30d)
+INFO      2019.02.25 15:28:59 13952    (0) Mon 2019.02.25_15.28.59 (0d0h): keepMinNumber1, keepWeekDays(30d)
+INFO      2019.02.25 15:28:59 13952 start reading /home/home/christian/Gedankenspeicher/Comp-Physics-3/Versions/2019.02.08_09.54.45/.md5CheckSums.bz2
+INFO      2019.02.25 15:28:59 13952 finished reading /home/home/christian/Gedankenspeicher/Comp-Physics-3/Versions/2019.02.08_09.54.45/.md5CheckSums.bz2 (22 entries)
+INFO      2019.02.25 15:28:59 13952 21 entries in dbm files
+INFO      2019.02.25 15:28:59 13952 0 entries in dbm block files
+INFO      2019.02.25 15:29:00 13952 setting atime, mtime of directories ...
+INFO      2019.02.25 15:29:00 13952 syncing ...
+STATISTIC 2019.02.25 15:29:00 13952  [sec] |      user|    system
+STATISTIC 2019.02.25 15:29:00 13952 -------+----------+----------
+STATISTIC 2019.02.25 15:29:00 13952 process|      0.22|      0.07
+STATISTIC 2019.02.25 15:29:00 13952 childs |      0.18|      0.03
+STATISTIC 2019.02.25 15:29:00 13952 -------+----------+----------
+STATISTIC 2019.02.25 15:29:00 13952 sum    |      0.40|      0.10 => 0.50 (1s)
+STATISTIC 2019.02.25 15:29:00 13952                    directories = 2
+STATISTIC 2019.02.25 15:29:00 13952                          files = 31
+STATISTIC 2019.02.25 15:29:00 13952                 symbolic links = 0
+STATISTIC 2019.02.25 15:29:00 13952                     late links = 0
+STATISTIC 2019.02.25 15:29:00 13952                    named pipes = 0
+STATISTIC 2019.02.25 15:29:00 13952                        sockets = 0
+STATISTIC 2019.02.25 15:29:00 13952                  block devices = 0
+STATISTIC 2019.02.25 15:29:00 13952              character devices = 0
+STATISTIC 2019.02.25 15:29:00 13952      new internal linked files = 0
+STATISTIC 2019.02.25 15:29:00 13952               old linked files = 12
+STATISTIC 2019.02.25 15:29:00 13952                unchanged files = 12
+STATISTIC 2019.02.25 15:29:00 13952                   copied files = 19
+STATISTIC 2019.02.25 15:29:00 13952               compressed files = 0
+STATISTIC 2019.02.25 15:29:00 13952                  blocked files = 0
+STATISTIC 2019.02.25 15:29:00 13952    excluded files because rule = 0 (0.0 )
+STATISTIC 2019.02.25 15:29:00 13952    included files because rule = 0 (0.0 )
+STATISTIC 2019.02.25 15:29:00 13952         max size of copy queue = 1
+STATISTIC 2019.02.25 15:29:00 13952  max size of compression queue = 0
+STATISTIC 2019.02.25 15:29:00 13952            calculated md5 sums = 41
+STATISTIC 2019.02.25 15:29:00 13952                    forks total = 2
+STATISTIC 2019.02.25 15:29:00 13952                      forks md5 = 2
+STATISTIC 2019.02.25 15:29:00 13952                     forks copy = 0
+STATISTIC 2019.02.25 15:29:00 13952                    forks bzip2 = 0
+STATISTIC 2019.02.25 15:29:00 13952                  sum of source = 4.8M (5075203)
+STATISTIC 2019.02.25 15:29:00 13952              sum of target all = 4.8M (5075203)
+STATISTIC 2019.02.25 15:29:00 13952              sum of target all = 100.00%
+STATISTIC 2019.02.25 15:29:00 13952              sum of target new = 949k (972027)
+STATISTIC 2019.02.25 15:29:00 13952              sum of target new = 19.15%
+STATISTIC 2019.02.25 15:29:00 13952             sum of md5ed files = 951k (974008)
+STATISTIC 2019.02.25 15:29:00 13952             sum of md5ed files = 19.19%
+STATISTIC 2019.02.25 15:29:00 13952     sum internal linked (copy) = 0.0  (0)
+STATISTIC 2019.02.25 15:29:00 13952    sum internal linked (compr) = 0.0  (0)
+STATISTIC 2019.02.25 15:29:00 13952          sum old linked (copy) =  64k (65140)
+STATISTIC 2019.02.25 15:29:00 13952         sum old linked (compr) = 3.9M (4038036)
+STATISTIC 2019.02.25 15:29:00 13952           sum unchanged (copy) =  64k (65140)
+STATISTIC 2019.02.25 15:29:00 13952          sum unchanged (compr) = 3.9M (4038036)
+STATISTIC 2019.02.25 15:29:00 13952                 sum new (copy) = 949k (972027)
+STATISTIC 2019.02.25 15:29:00 13952                sum new (compr) = 0.0  (0)
+STATISTIC 2019.02.25 15:29:00 13952     sum new (compr), orig size = 0.0  (0)
+STATISTIC 2019.02.25 15:29:00 13952                 sum new / orig = 100.00%
+STATISTIC 2019.02.25 15:29:00 13952       size of md5CheckSum file = 1.7k (1722)
+STATISTIC 2019.02.25 15:29:00 13952     size of temporary db files = 0.0  (0)
+STATISTIC 2019.02.25 15:29:00 13952            deleted old backups = 0
+STATISTIC 2019.02.25 15:29:00 13952            deleted directories = 0
+STATISTIC 2019.02.25 15:29:00 13952                  deleted files = 0
+STATISTIC 2019.02.25 15:29:00 13952           (only) removed links = 0
+STATISTIC 2019.02.25 15:29:00 13952 freed space in old directories = 0.0  (0)
+STATISTIC 2019.02.25 15:29:00 13952       add. used space in files = 951k (973749)
+STATISTIC 2019.02.25 15:29:00 13952                backup duration = 1s
+STATISTIC 2019.02.25 15:29:00 13952 over all files/sec (real time) = 31.00
+STATISTIC 2019.02.25 15:29:00 13952  over all files/sec (CPU time) = 62.00
+STATISTIC 2019.02.25 15:29:00 13952                      CPU usage = 50.00%
+INFO      2019.02.25 15:29:00 13952 removing lock file </tmp/storeBackup.lock>
+END       2019.02.25 15:29:00 13952 backing up directory </home/home/christian/Gedankenspeicher/Comp-Physics-3> to </home/home/christian/Gedankenspeicher/Comp-Physics-3/Versions/2019.02.25_15.28.59>
+BEGIN     2019.03.05 00:15:35 13546 backing up directory </home/christian/Dropbox/Comp-Physics-3> to </home/christian/Dropbox/Comp-Physics-3/Versions>
+VERSION   2019.03.05 00:15:35 13546 storeBackup.pl, 3.5
+INFO      2019.03.05 00:15:35 13546 setting ARG_MAX to 63488 (Linux)
+INFO      2019.03.05 00:15:35 13546 comprRule = $size > 10000000 and not $file =~ /\.zip\Z|\.bz2\Z|\.gz\Z|\.tgz\Z|\.jpg\Z|\.gif\Z|\.tiff?\Z|\.mpe?g\Z|\.mp[34]\Z|\.mpe?[34]\Z|\.ogg\Z|\.gpg\Z|\.png\Z|\.lzma\Z|\.xz\Z|\.mov\Z/i
+INFO      2019.03.05 00:15:35 13546 scanning directory </home/christian/Dropbox/Comp-Physics-3> for existing backups
+INFO      2019.03.05 00:15:35 13546 scanning directory </home/christian/Dropbox/Comp-Physics-3/stochastic resonance> for existing backups
+INFO      2019.03.05 00:15:35 13546 scanning directory </home/christian/Dropbox/Comp-Physics-3/Versions> for existing backups
+STATISTIC 2019.03.05 00:15:35 13546 found 2 backup series, 7 backups, 0 renamed backups
+INFO      2019.03.05 00:15:35 13546 consistency check finished successfully
+INFO      2019.03.05 00:15:35 13546 found no references to backups from lateLinks that need storeBackupUpdateBackup run
+INFO      2019.03.05 00:15:35 13546 excluding <Versions>:
+INFO      2019.03.05 00:15:35 13546     excluding </home/christian/Dropbox/Comp-Physics-3/Versions>
+INFO      2019.03.05 00:15:35 13546 target directory </home/christian/Dropbox/Comp-Physics-3/Versions> is in exception </home/christian/Dropbox/Comp-Physics-3/Versions> of source directory </home/christian/Dropbox/Comp-Physics-3>, ok
+INFO      2019.03.05 00:15:35 13546 creating lock file </tmp/storeBackup.lock>
+INFO      2019.03.05 00:15:35 13546 analysis of old Backups in </home/christian/Dropbox/Comp-Physics-3/Versions>:
+INFO      2019.03.05 00:15:35 13546    (7) Fri 2019.01.18_20.09.55 (45d4h): keepMinNumber8
+INFO      2019.03.05 00:15:35 13546    (6) Mon 2019.01.21_18.16.55 (42d5h): keepMinNumber7
+INFO      2019.03.05 00:15:35 13546    (5) Tue 2019.01.22_00.44.11 (41d23h): keepMinNumber6
+INFO      2019.03.05 00:15:35 13546    (4) Wed 2019.01.23_22.19.51 (40d1h): keepMinNumber5
+INFO      2019.03.05 00:15:35 13546    (3) Sun 2019.02.03_22.53.15 (29d1h): keepMinNumber4, keepWeekDays(30d)
+INFO      2019.03.05 00:15:35 13546    (2) Fri 2019.02.08_09.54.45 (24d14h): keepMinNumber3, keepWeekDays(30d)
+INFO      2019.03.05 00:15:35 13546    (1) Mon 2019.02.25_15.28.59 (7d8h): keepMinNumber2, keepWeekDays(30d)
+INFO      2019.03.05 00:15:35 13546    (0) Tue 2019.03.05_00.15.35 (0d0h): keepMinNumber1, keepWeekDays(30d)
+INFO      2019.03.05 00:15:35 13546 start reading /home/christian/Dropbox/Comp-Physics-3/Versions/2019.02.25_15.28.59/.md5CheckSums.bz2
+INFO      2019.03.05 00:15:35 13546 finished reading /home/christian/Dropbox/Comp-Physics-3/Versions/2019.02.25_15.28.59/.md5CheckSums.bz2 (33 entries)
+INFO      2019.03.05 00:15:35 13546 31 entries in dbm files
+INFO      2019.03.05 00:15:35 13546 0 entries in dbm block files
+INFO      2019.03.05 00:15:37 13546 setting atime, mtime of directories ...
+INFO      2019.03.05 00:15:37 13546 syncing ...
+STATISTIC 2019.03.05 00:15:38 13546  [sec] |      user|    system
+STATISTIC 2019.03.05 00:15:38 13546 -------+----------+----------
+STATISTIC 2019.03.05 00:15:38 13546 process|      0.27|      0.05
+STATISTIC 2019.03.05 00:15:38 13546 childs |      1.63|      0.04
+STATISTIC 2019.03.05 00:15:38 13546 -------+----------+----------
+STATISTIC 2019.03.05 00:15:38 13546 sum    |      1.90|      0.09 => 1.99 (2s)
+STATISTIC 2019.03.05 00:15:38 13546                    directories = 2
+STATISTIC 2019.03.05 00:15:38 13546                          files = 34
+STATISTIC 2019.03.05 00:15:38 13546                 symbolic links = 0
+STATISTIC 2019.03.05 00:15:38 13546                     late links = 0
+STATISTIC 2019.03.05 00:15:38 13546                    named pipes = 0
+STATISTIC 2019.03.05 00:15:38 13546                        sockets = 0
+STATISTIC 2019.03.05 00:15:38 13546                  block devices = 0
+STATISTIC 2019.03.05 00:15:38 13546              character devices = 0
+STATISTIC 2019.03.05 00:15:38 13546      new internal linked files = 0
+STATISTIC 2019.03.05 00:15:38 13546               old linked files = 6
+STATISTIC 2019.03.05 00:15:38 13546                unchanged files = 6
+STATISTIC 2019.03.05 00:15:38 13546                   copied files = 27
+STATISTIC 2019.03.05 00:15:38 13546               compressed files = 1
+STATISTIC 2019.03.05 00:15:38 13546                  blocked files = 0
+STATISTIC 2019.03.05 00:15:38 13546    excluded files because rule = 0 (0.0 )
+STATISTIC 2019.03.05 00:15:38 13546    included files because rule = 0 (0.0 )
+STATISTIC 2019.03.05 00:15:38 13546         max size of copy queue = 1
+STATISTIC 2019.03.05 00:15:38 13546  max size of compression queue = 1
+STATISTIC 2019.03.05 00:15:38 13546            calculated md5 sums = 60
+STATISTIC 2019.03.05 00:15:38 13546                    forks total = 3
+STATISTIC 2019.03.05 00:15:38 13546                      forks md5 = 2
+STATISTIC 2019.03.05 00:15:38 13546                     forks copy = 0
+STATISTIC 2019.03.05 00:15:38 13546                    forks bzip2 = 1
+STATISTIC 2019.03.05 00:15:38 13546                  sum of source =  15M (15682286)
+STATISTIC 2019.03.05 00:15:38 13546              sum of target all = 5.9M (6159006)
+STATISTIC 2019.03.05 00:15:38 13546              sum of target all = 39.27%
+STATISTIC 2019.03.05 00:15:38 13546              sum of target new = 5.5M (5807762)
+STATISTIC 2019.03.05 00:15:38 13546              sum of target new = 37.03%
+STATISTIC 2019.03.05 00:15:38 13546             sum of md5ed files =  15M (15675822)
+STATISTIC 2019.03.05 00:15:38 13546             sum of md5ed files = 99.96%
+STATISTIC 2019.03.05 00:15:38 13546     sum internal linked (copy) = 0.0  (0)
+STATISTIC 2019.03.05 00:15:38 13546    sum internal linked (compr) = 0.0  (0)
+STATISTIC 2019.03.05 00:15:38 13546          sum old linked (copy) =  12k (12084)
+STATISTIC 2019.03.05 00:15:38 13546         sum old linked (compr) = 331k (339160)
+STATISTIC 2019.03.05 00:15:38 13546           sum unchanged (copy) =  12k (12084)
+STATISTIC 2019.03.05 00:15:38 13546          sum unchanged (compr) = 331k (339160)
+STATISTIC 2019.03.05 00:15:38 13546                 sum new (copy) = 1.4M (1479360)
+STATISTIC 2019.03.05 00:15:38 13546                sum new (compr) = 4.1M (4328402)
+STATISTIC 2019.03.05 00:15:38 13546     sum new (compr), orig size =  13M (13851682)
+STATISTIC 2019.03.05 00:15:38 13546                 sum new / orig = 37.88%
+STATISTIC 2019.03.05 00:15:38 13546       size of md5CheckSum file = 1.7k (1783)
+STATISTIC 2019.03.05 00:15:38 13546     size of temporary db files = 0.0  (0)
+STATISTIC 2019.03.05 00:15:38 13546            deleted old backups = 0
+STATISTIC 2019.03.05 00:15:38 13546            deleted directories = 0
+STATISTIC 2019.03.05 00:15:38 13546                  deleted files = 0
+STATISTIC 2019.03.05 00:15:38 13546           (only) removed links = 0
+STATISTIC 2019.03.05 00:15:38 13546 freed space in old directories = 0.0  (0)
+STATISTIC 2019.03.05 00:15:38 13546       add. used space in files = 5.5M (5809545)
+STATISTIC 2019.03.05 00:15:38 13546                backup duration = 3s
+STATISTIC 2019.03.05 00:15:38 13546 over all files/sec (real time) = 11.33
+STATISTIC 2019.03.05 00:15:38 13546  over all files/sec (CPU time) = 17.09
+STATISTIC 2019.03.05 00:15:38 13546                      CPU usage = 66.33%
+INFO      2019.03.05 00:15:38 13546 removing lock file </tmp/storeBackup.lock>
+END       2019.03.05 00:15:38 13546 backing up directory </home/christian/Dropbox/Comp-Physics-3> to </home/christian/Dropbox/Comp-Physics-3/Versions/2019.03.05_00.15.35>
+BEGIN     2019.03.27 18:42:32 27658 backing up directory </home/christian/Dropbox/Comp-Physics-3> to </home/christian/Dropbox/Comp-Physics-3/Versions>
+VERSION   2019.03.27 18:42:32 27658 storeBackup.pl, 3.5
+INFO      2019.03.27 18:42:32 27658 setting ARG_MAX to 63488 (Linux)
+INFO      2019.03.27 18:42:32 27658 comprRule = $size > 10000000 and not $file =~ /\.zip\Z|\.bz2\Z|\.gz\Z|\.tgz\Z|\.jpg\Z|\.gif\Z|\.tiff?\Z|\.mpe?g\Z|\.mp[34]\Z|\.mpe?[34]\Z|\.ogg\Z|\.gpg\Z|\.png\Z|\.lzma\Z|\.xz\Z|\.mov\Z/i
+INFO      2019.03.27 18:42:32 27658 scanning directory </home/christian/Dropbox/Comp-Physics-3> for existing backups
+INFO      2019.03.27 18:42:32 27658 scanning directory </home/christian/Dropbox/Comp-Physics-3/stochastic resonance> for existing backups
+INFO      2019.03.27 18:42:32 27658 scanning directory </home/christian/Dropbox/Comp-Physics-3/Daten_FF> for existing backups
+INFO      2019.03.27 18:42:32 27658 scanning directory </home/christian/Dropbox/Comp-Physics-3/Versions> for existing backups
+STATISTIC 2019.03.27 18:42:32 27658 found 3 backup series, 8 backups, 0 renamed backups
+INFO      2019.03.27 18:42:32 27658 consistency check finished successfully
+INFO      2019.03.27 18:42:32 27658 found no references to backups from lateLinks that need storeBackupUpdateBackup run
+INFO      2019.03.27 18:42:32 27658 excluding <Versions>:
+INFO      2019.03.27 18:42:32 27658     excluding </home/christian/Dropbox/Comp-Physics-3/Versions>
+INFO      2019.03.27 18:42:32 27658 target directory </home/christian/Dropbox/Comp-Physics-3/Versions> is in exception </home/christian/Dropbox/Comp-Physics-3/Versions> of source directory </home/christian/Dropbox/Comp-Physics-3>, ok
+INFO      2019.03.27 18:42:32 27658 creating lock file </tmp/storeBackup.lock>
+INFO      2019.03.27 18:42:32 27658 analysis of old Backups in </home/christian/Dropbox/Comp-Physics-3/Versions>:
+INFO      2019.03.27 18:42:32 27658    (8) Fri 2019.01.18_20.09.55 (67d22h): keepMinNumber9
+INFO      2019.03.27 18:42:32 27658    (7) Mon 2019.01.21_18.16.55 (65d0h): keepMinNumber8
+INFO      2019.03.27 18:42:32 27658    (6) Tue 2019.01.22_00.44.11 (64d17h): keepMinNumber7
+INFO      2019.03.27 18:42:32 27658    (5) Wed 2019.01.23_22.19.51 (62d20h): keepMinNumber6
+INFO      2019.03.27 18:42:32 27658    (4) Sun 2019.02.03_22.53.15 (51d19h): keepMinNumber5
+INFO      2019.03.27 18:42:32 27658    (3) Fri 2019.02.08_09.54.45 (47d8h): keepMinNumber4
+INFO      2019.03.27 18:42:32 27658    (2) Mon 2019.02.25_15.28.59 (30d3h): keepMinNumber3
+INFO      2019.03.27 18:42:32 27658    (1) Tue 2019.03.05_00.15.35 (22d18h): keepMinNumber2, keepWeekDays(30d)
+INFO      2019.03.27 18:42:32 27658    (0) Wed 2019.03.27_18.42.32 (0d0h): keepMinNumber1, keepWeekDays(30d)
+INFO      2019.03.27 18:42:32 27658 start reading /home/christian/Dropbox/Comp-Physics-3/Versions/2019.03.05_00.15.35/.md5CheckSums.bz2
+INFO      2019.03.27 18:42:32 27658 finished reading /home/christian/Dropbox/Comp-Physics-3/Versions/2019.03.05_00.15.35/.md5CheckSums.bz2 (36 entries)
+INFO      2019.03.27 18:42:32 27658 34 entries in dbm files
+INFO      2019.03.27 18:42:32 27658 0 entries in dbm block files
+INFO      2019.03.27 18:42:33 27658 setting atime, mtime of directories ...
+INFO      2019.03.27 18:42:33 27658 syncing ...
+STATISTIC 2019.03.27 18:42:34 27658  [sec] |      user|    system
+STATISTIC 2019.03.27 18:42:34 27658 -------+----------+----------
+STATISTIC 2019.03.27 18:42:34 27658 process|      0.31|      0.07
+STATISTIC 2019.03.27 18:42:34 27658 childs |      0.21|      0.10
+STATISTIC 2019.03.27 18:42:34 27658 -------+----------+----------
+STATISTIC 2019.03.27 18:42:34 27658 sum    |      0.52|      0.17 => 0.69 (1s)
+STATISTIC 2019.03.27 18:42:34 27658                    directories = 3
+STATISTIC 2019.03.27 18:42:34 27658                          files = 138
+STATISTIC 2019.03.27 18:42:34 27658                 symbolic links = 0
+STATISTIC 2019.03.27 18:42:34 27658                     late links = 0
+STATISTIC 2019.03.27 18:42:34 27658                    named pipes = 0
+STATISTIC 2019.03.27 18:42:34 27658                        sockets = 0
+STATISTIC 2019.03.27 18:42:34 27658                  block devices = 0
+STATISTIC 2019.03.27 18:42:34 27658              character devices = 0
+STATISTIC 2019.03.27 18:42:34 27658      new internal linked files = 0
+STATISTIC 2019.03.27 18:42:34 27658               old linked files = 16
+STATISTIC 2019.03.27 18:42:34 27658                unchanged files = 16
+STATISTIC 2019.03.27 18:42:34 27658                   copied files = 122
+STATISTIC 2019.03.27 18:42:34 27658               compressed files = 0
+STATISTIC 2019.03.27 18:42:34 27658                  blocked files = 0
+STATISTIC 2019.03.27 18:42:34 27658    excluded files because rule = 0 (0.0 )
+STATISTIC 2019.03.27 18:42:34 27658    included files because rule = 0 (0.0 )
+STATISTIC 2019.03.27 18:42:34 27658         max size of copy queue = 104
+STATISTIC 2019.03.27 18:42:34 27658  max size of compression queue = 0
+STATISTIC 2019.03.27 18:42:34 27658            calculated md5 sums = 248
+STATISTIC 2019.03.27 18:42:34 27658                    forks total = 7
+STATISTIC 2019.03.27 18:42:34 27658                      forks md5 = 3
+STATISTIC 2019.03.27 18:42:34 27658                     forks copy = 4
+STATISTIC 2019.03.27 18:42:34 27658                    forks bzip2 = 0
+STATISTIC 2019.03.27 18:42:34 27658                  sum of source =  14M (14251102)
+STATISTIC 2019.03.27 18:42:34 27658              sum of target all =  14M (14251102)
+STATISTIC 2019.03.27 18:42:34 27658              sum of target all = 100.00%
+STATISTIC 2019.03.27 18:42:34 27658              sum of target new =  12M (12864899)
+STATISTIC 2019.03.27 18:42:34 27658              sum of target new = 90.27%
+STATISTIC 2019.03.27 18:42:34 27658             sum of md5ed files =  12M (12885805)
+STATISTIC 2019.03.27 18:42:34 27658             sum of md5ed files = 90.42%
+STATISTIC 2019.03.27 18:42:34 27658     sum internal linked (copy) = 0.0  (0)
+STATISTIC 2019.03.27 18:42:34 27658    sum internal linked (compr) = 0.0  (0)
+STATISTIC 2019.03.27 18:42:34 27658          sum old linked (copy) = 1.0M (1047043)
+STATISTIC 2019.03.27 18:42:34 27658         sum old linked (compr) = 331k (339160)
+STATISTIC 2019.03.27 18:42:34 27658           sum unchanged (copy) = 1.0M (1047043)
+STATISTIC 2019.03.27 18:42:34 27658          sum unchanged (compr) = 331k (339160)
+STATISTIC 2019.03.27 18:42:34 27658                 sum new (copy) =  12M (12864899)
+STATISTIC 2019.03.27 18:42:34 27658                sum new (compr) = 0.0  (0)
+STATISTIC 2019.03.27 18:42:34 27658     sum new (compr), orig size = 0.0  (0)
+STATISTIC 2019.03.27 18:42:34 27658                 sum new / orig = 100.00%
+STATISTIC 2019.03.27 18:42:34 27658       size of md5CheckSum file = 5.3k (5470)
+STATISTIC 2019.03.27 18:42:34 27658     size of temporary db files = 0.0  (0)
+STATISTIC 2019.03.27 18:42:34 27658            deleted old backups = 0
+STATISTIC 2019.03.27 18:42:34 27658            deleted directories = 0
+STATISTIC 2019.03.27 18:42:34 27658                  deleted files = 0
+STATISTIC 2019.03.27 18:42:34 27658           (only) removed links = 0
+STATISTIC 2019.03.27 18:42:34 27658 freed space in old directories = 0.0  (0)
+STATISTIC 2019.03.27 18:42:34 27658       add. used space in files =  12M (12870369)
+STATISTIC 2019.03.27 18:42:34 27658                backup duration = 2s
+STATISTIC 2019.03.27 18:42:34 27658 over all files/sec (real time) = 69.00
+STATISTIC 2019.03.27 18:42:34 27658  over all files/sec (CPU time) = 200.00
+STATISTIC 2019.03.27 18:42:34 27658                      CPU usage = 34.50%
+INFO      2019.03.27 18:42:34 27658 removing lock file </tmp/storeBackup.lock>
+END       2019.03.27 18:42:34 27658 backing up directory </home/christian/Dropbox/Comp-Physics-3> to </home/christian/Dropbox/Comp-Physics-3/Versions/2019.03.27_18.42.32>
+BEGIN     2019.04.11 21:38:16 26280 backing up directory </home/christian/Dropbox/Comp-Physics-3> to </home/christian/Dropbox/Comp-Physics-3/Versions>
+VERSION   2019.04.11 21:38:16 26280 storeBackup.pl, 3.5
+INFO      2019.04.11 21:38:16 26280 setting ARG_MAX to 63488 (Linux)
+INFO      2019.04.11 21:38:16 26280 comprRule = $size > 10000000 and not $file =~ /\.zip\Z|\.bz2\Z|\.gz\Z|\.tgz\Z|\.jpg\Z|\.gif\Z|\.tiff?\Z|\.mpe?g\Z|\.mp[34]\Z|\.mpe?[34]\Z|\.ogg\Z|\.gpg\Z|\.png\Z|\.lzma\Z|\.xz\Z|\.mov\Z/i
+INFO      2019.04.11 21:38:16 26280 scanning directory </home/christian/Dropbox/Comp-Physics-3> for existing backups
+INFO      2019.04.11 21:38:16 26280 scanning directory </home/christian/Dropbox/Comp-Physics-3/stochastic resonance> for existing backups
+INFO      2019.04.11 21:38:16 26280 scanning directory </home/christian/Dropbox/Comp-Physics-3/Daten_FF> for existing backups
+INFO      2019.04.11 21:38:16 26280 scanning directory </home/christian/Dropbox/Comp-Physics-3/Versions> for existing backups
+STATISTIC 2019.04.11 21:38:16 26280 found 3 backup series, 9 backups, 0 renamed backups
+INFO      2019.04.11 21:38:16 26280 consistency check finished successfully
+INFO      2019.04.11 21:38:16 26280 found no references to backups from lateLinks that need storeBackupUpdateBackup run
+INFO      2019.04.11 21:38:16 26280 excluding <Versions>:
+INFO      2019.04.11 21:38:16 26280     excluding </home/christian/Dropbox/Comp-Physics-3/Versions>
+INFO      2019.04.11 21:38:16 26280 target directory </home/christian/Dropbox/Comp-Physics-3/Versions> is in exception </home/christian/Dropbox/Comp-Physics-3/Versions> of source directory </home/christian/Dropbox/Comp-Physics-3>, ok
+INFO      2019.04.11 21:38:16 26280 creating lock file </tmp/storeBackup.lock>
+INFO      2019.04.11 21:38:16 26280 analysis of old Backups in </home/christian/Dropbox/Comp-Physics-3/Versions>:
+INFO      2019.04.11 21:38:16 26280    (9) Fri 2019.01.18_20.09.55 (83d1h): keepMinNumber10
+INFO      2019.04.11 21:38:16 26280    (8) Mon 2019.01.21_18.16.55 (80d3h): keepMinNumber9
+INFO      2019.04.11 21:38:16 26280    (7) Tue 2019.01.22_00.44.11 (79d20h): keepMinNumber8
+INFO      2019.04.11 21:38:16 26280    (6) Wed 2019.01.23_22.19.51 (77d23h): keepMinNumber7
+INFO      2019.04.11 21:38:16 26280    (5) Sun 2019.02.03_22.53.15 (66d22h): keepMinNumber6
+INFO      2019.04.11 21:38:16 26280    (4) Fri 2019.02.08_09.54.45 (62d11h): keepMinNumber5
+INFO      2019.04.11 21:38:16 26280    (3) Mon 2019.02.25_15.28.59 (45d6h): keepMinNumber4
+INFO      2019.04.11 21:38:16 26280    (2) Tue 2019.03.05_00.15.35 (37d21h): keepMinNumber3
+INFO      2019.04.11 21:38:16 26280    (1) Wed 2019.03.27_18.42.32 (15d2h): keepMinNumber2, keepWeekDays(30d)
+INFO      2019.04.11 21:38:16 26280    (0) Thu 2019.04.11_21.38.16 (0d0h): keepMinNumber1, keepWeekDays(30d)
+INFO      2019.04.11 21:38:16 26280 start reading /home/christian/Dropbox/Comp-Physics-3/Versions/2019.03.27_18.42.32/.md5CheckSums.bz2
+INFO      2019.04.11 21:38:16 26280 finished reading /home/christian/Dropbox/Comp-Physics-3/Versions/2019.03.27_18.42.32/.md5CheckSums.bz2 (141 entries)
+INFO      2019.04.11 21:38:16 26280 138 entries in dbm files
+INFO      2019.04.11 21:38:16 26280 0 entries in dbm block files
+INFO      2019.04.11 21:38:21 26280 setting atime, mtime of directories ...
+INFO      2019.04.11 21:38:21 26280 syncing ...
+STATISTIC 2019.04.11 21:38:22 26280  [sec] |      user|    system
+STATISTIC 2019.04.11 21:38:22 26280 -------+----------+----------
+STATISTIC 2019.04.11 21:38:22 26280 process|      0.31|      0.05
+STATISTIC 2019.04.11 21:38:22 26280 childs |      5.64|      0.13
+STATISTIC 2019.04.11 21:38:22 26280 -------+----------+----------
+STATISTIC 2019.04.11 21:38:22 26280 sum    |      5.95|      0.18 => 6.13 (6s)
+STATISTIC 2019.04.11 21:38:22 26280                    directories = 3
+STATISTIC 2019.04.11 21:38:22 26280                          files = 150
+STATISTIC 2019.04.11 21:38:22 26280                 symbolic links = 0
+STATISTIC 2019.04.11 21:38:22 26280                     late links = 0
+STATISTIC 2019.04.11 21:38:22 26280                    named pipes = 0
+STATISTIC 2019.04.11 21:38:22 26280                        sockets = 0
+STATISTIC 2019.04.11 21:38:22 26280                  block devices = 0
+STATISTIC 2019.04.11 21:38:22 26280              character devices = 0
+STATISTIC 2019.04.11 21:38:22 26280      new internal linked files = 0
+STATISTIC 2019.04.11 21:38:22 26280               old linked files = 127
+STATISTIC 2019.04.11 21:38:22 26280                unchanged files = 127
+STATISTIC 2019.04.11 21:38:22 26280                   copied files = 21
+STATISTIC 2019.04.11 21:38:22 26280               compressed files = 2
+STATISTIC 2019.04.11 21:38:22 26280                  blocked files = 0
+STATISTIC 2019.04.11 21:38:22 26280    excluded files because rule = 0 (0.0 )
+STATISTIC 2019.04.11 21:38:22 26280    included files because rule = 0 (0.0 )
+STATISTIC 2019.04.11 21:38:22 26280         max size of copy queue = 1
+STATISTIC 2019.04.11 21:38:22 26280  max size of compression queue = 1
+STATISTIC 2019.04.11 21:38:22 26280            calculated md5 sums = 50
+STATISTIC 2019.04.11 21:38:22 26280                    forks total = 5
+STATISTIC 2019.04.11 21:38:22 26280                      forks md5 = 2
+STATISTIC 2019.04.11 21:38:22 26280                     forks copy = 1
+STATISTIC 2019.04.11 21:38:22 26280                    forks bzip2 = 2
+STATISTIC 2019.04.11 21:38:22 26280                  sum of source =  40M (42438663)
+STATISTIC 2019.04.11 21:38:22 26280              sum of target all =  37M (38456635)
+STATISTIC 2019.04.11 21:38:22 26280              sum of target all = 90.62%
+STATISTIC 2019.04.11 21:38:22 26280              sum of target new =  23M (24473902)
+STATISTIC 2019.04.11 21:38:22 26280              sum of target new = 57.67%
+STATISTIC 2019.04.11 21:38:22 26280             sum of md5ed files =  31M (32922772)
+STATISTIC 2019.04.11 21:38:22 26280             sum of md5ed files = 77.58%
+STATISTIC 2019.04.11 21:38:22 26280     sum internal linked (copy) = 0.0  (0)
+STATISTIC 2019.04.11 21:38:22 26280    sum internal linked (compr) = 0.0  (0)
+STATISTIC 2019.04.11 21:38:22 26280          sum old linked (copy) =  13M (13643573)
+STATISTIC 2019.04.11 21:38:22 26280         sum old linked (compr) = 331k (339160)
+STATISTIC 2019.04.11 21:38:22 26280           sum unchanged (copy) =  13M (13643573)
+STATISTIC 2019.04.11 21:38:22 26280          sum unchanged (compr) = 331k (339160)
+STATISTIC 2019.04.11 21:38:22 26280                 sum new (copy) = 3.5M (3680969)
+STATISTIC 2019.04.11 21:38:22 26280                sum new (compr) =  20M (20792933)
+STATISTIC 2019.04.11 21:38:22 26280     sum new (compr), orig size =  24M (24774961)
+STATISTIC 2019.04.11 21:38:22 26280                 sum new / orig = 86.01%
+STATISTIC 2019.04.11 21:38:22 26280       size of md5CheckSum file = 5.9k (6091)
+STATISTIC 2019.04.11 21:38:22 26280     size of temporary db files = 0.0  (0)
+STATISTIC 2019.04.11 21:38:22 26280            deleted old backups = 0
+STATISTIC 2019.04.11 21:38:22 26280            deleted directories = 0
+STATISTIC 2019.04.11 21:38:22 26280                  deleted files = 0
+STATISTIC 2019.04.11 21:38:22 26280           (only) removed links = 0
+STATISTIC 2019.04.11 21:38:22 26280 freed space in old directories = 0.0  (0)
+STATISTIC 2019.04.11 21:38:22 26280       add. used space in files =  23M (24479993)
+STATISTIC 2019.04.11 21:38:22 26280                backup duration = 6s
+STATISTIC 2019.04.11 21:38:22 26280 over all files/sec (real time) = 25.00
+STATISTIC 2019.04.11 21:38:22 26280  over all files/sec (CPU time) = 24.47
+STATISTIC 2019.04.11 21:38:22 26280                      CPU usage = 102.17%
+INFO      2019.04.11 21:38:22 26280 removing lock file </tmp/storeBackup.lock>
+END       2019.04.11 21:38:22 26280 backing up directory </home/christian/Dropbox/Comp-Physics-3> to </home/christian/Dropbox/Comp-Physics-3/Versions/2019.04.11_21.38.16>
+BEGIN     2019.04.16 15:34:31 11213 backing up directory </home/christian/Dropbox/Comp-Physics-3> to </home/christian/Dropbox/Comp-Physics-3/Versions>
+VERSION   2019.04.16 15:34:31 11213 storeBackup.pl, 3.5
+INFO      2019.04.16 15:34:31 11213 setting ARG_MAX to 63488 (Linux)
+INFO      2019.04.16 15:34:31 11213 comprRule = $size > 10000000 and not $file =~ /\.zip\Z|\.bz2\Z|\.gz\Z|\.tgz\Z|\.jpg\Z|\.gif\Z|\.tiff?\Z|\.mpe?g\Z|\.mp[34]\Z|\.mpe?[34]\Z|\.ogg\Z|\.gpg\Z|\.png\Z|\.lzma\Z|\.xz\Z|\.mov\Z/i
+INFO      2019.04.16 15:34:31 11213 scanning directory </home/christian/Dropbox/Comp-Physics-3> for existing backups
+INFO      2019.04.16 15:34:31 11213 scanning directory </home/christian/Dropbox/Comp-Physics-3/stochastic resonance> for existing backups
+INFO      2019.04.16 15:34:31 11213 scanning directory </home/christian/Dropbox/Comp-Physics-3/Daten_FF> for existing backups
+INFO      2019.04.16 15:34:31 11213 scanning directory </home/christian/Dropbox/Comp-Physics-3/Versions> for existing backups
+STATISTIC 2019.04.16 15:34:31 11213 found 3 backup series, 10 backups, 0 renamed backups
+INFO      2019.04.16 15:34:31 11213 consistency check finished successfully
+INFO      2019.04.16 15:34:31 11213 found no references to backups from lateLinks that need storeBackupUpdateBackup run
+INFO      2019.04.16 15:34:31 11213 excluding <Versions>:
+INFO      2019.04.16 15:34:31 11213     excluding </home/christian/Dropbox/Comp-Physics-3/Versions>
+INFO      2019.04.16 15:34:31 11213 target directory </home/christian/Dropbox/Comp-Physics-3/Versions> is in exception </home/christian/Dropbox/Comp-Physics-3/Versions> of source directory </home/christian/Dropbox/Comp-Physics-3>, ok
+INFO      2019.04.16 15:34:31 11213 creating lock file </tmp/storeBackup.lock>
+INFO      2019.04.16 15:34:31 11213 analysis of old Backups in </home/christian/Dropbox/Comp-Physics-3/Versions>:
+INFO      2019.04.16 15:34:31 11213    (10) Fri 2019.01.18_20.09.55 (87d19h): keepMinNumber11
+INFO      2019.04.16 15:34:31 11213    (9) Mon 2019.01.21_18.16.55 (84d21h): keepMinNumber10
+INFO      2019.04.16 15:34:31 11213    (8) Tue 2019.01.22_00.44.11 (84d14h): keepMinNumber9
+INFO      2019.04.16 15:34:31 11213    (7) Wed 2019.01.23_22.19.51 (82d17h): keepMinNumber8
+INFO      2019.04.16 15:34:31 11213    (6) Sun 2019.02.03_22.53.15 (71d16h): keepMinNumber7
+INFO      2019.04.16 15:34:31 11213    (5) Fri 2019.02.08_09.54.45 (67d5h): keepMinNumber6
+INFO      2019.04.16 15:34:31 11213    (4) Mon 2019.02.25_15.28.59 (50d0h): keepMinNumber5
+INFO      2019.04.16 15:34:31 11213    (3) Tue 2019.03.05_00.15.35 (42d15h): keepMinNumber4
+INFO      2019.04.16 15:34:31 11213    (2) Wed 2019.03.27_18.42.32 (19d20h): keepMinNumber3, keepWeekDays(30d)
+INFO      2019.04.16 15:34:31 11213    (1) Thu 2019.04.11_21.38.16 (4d17h): keepMinNumber2, keepWeekDays(30d)
+INFO      2019.04.16 15:34:31 11213    (0) Tue 2019.04.16_15.34.31 (0d0h): keepMinNumber1, keepWeekDays(30d)
+INFO      2019.04.16 15:34:31 11213 start reading /home/christian/Dropbox/Comp-Physics-3/Versions/2019.04.11_21.38.16/.md5CheckSums.bz2
+INFO      2019.04.16 15:34:31 11213 finished reading /home/christian/Dropbox/Comp-Physics-3/Versions/2019.04.11_21.38.16/.md5CheckSums.bz2 (153 entries)
+INFO      2019.04.16 15:34:31 11213 150 entries in dbm files
+INFO      2019.04.16 15:34:31 11213 0 entries in dbm block files
+INFO      2019.04.16 15:34:31 11213 setting atime, mtime of directories ...
+INFO      2019.04.16 15:34:31 11213 syncing ...
+STATISTIC 2019.04.16 15:34:32 11213  [sec] |      user|    system
+STATISTIC 2019.04.16 15:34:32 11213 -------+----------+----------
+STATISTIC 2019.04.16 15:34:32 11213 process|      0.25|      0.05
+STATISTIC 2019.04.16 15:34:32 11213 childs |      0.19|      0.04
+STATISTIC 2019.04.16 15:34:32 11213 -------+----------+----------
+STATISTIC 2019.04.16 15:34:32 11213 sum    |      0.44|      0.09 => 0.53 (1s)
+STATISTIC 2019.04.16 15:34:32 11213                    directories = 3
+STATISTIC 2019.04.16 15:34:32 11213                          files = 56
+STATISTIC 2019.04.16 15:34:32 11213                 symbolic links = 0
+STATISTIC 2019.04.16 15:34:32 11213                     late links = 0
+STATISTIC 2019.04.16 15:34:32 11213                    named pipes = 0
+STATISTIC 2019.04.16 15:34:32 11213                        sockets = 0
+STATISTIC 2019.04.16 15:34:32 11213                  block devices = 0
+STATISTIC 2019.04.16 15:34:32 11213              character devices = 0
+STATISTIC 2019.04.16 15:34:32 11213      new internal linked files = 0
+STATISTIC 2019.04.16 15:34:32 11213               old linked files = 45
+STATISTIC 2019.04.16 15:34:32 11213                unchanged files = 45
+STATISTIC 2019.04.16 15:34:32 11213                   copied files = 11
+STATISTIC 2019.04.16 15:34:32 11213               compressed files = 0
+STATISTIC 2019.04.16 15:34:32 11213                  blocked files = 0
+STATISTIC 2019.04.16 15:34:32 11213    excluded files because rule = 0 (0.0 )
+STATISTIC 2019.04.16 15:34:32 11213    included files because rule = 0 (0.0 )
+STATISTIC 2019.04.16 15:34:32 11213         max size of copy queue = 7
+STATISTIC 2019.04.16 15:34:32 11213  max size of compression queue = 0
+STATISTIC 2019.04.16 15:34:32 11213            calculated md5 sums = 24
+STATISTIC 2019.04.16 15:34:32 11213                    forks total = 2
+STATISTIC 2019.04.16 15:34:32 11213                      forks md5 = 1
+STATISTIC 2019.04.16 15:34:32 11213                     forks copy = 1
+STATISTIC 2019.04.16 15:34:32 11213                    forks bzip2 = 0
+STATISTIC 2019.04.16 15:34:32 11213                  sum of source =  42M (43658020)
+STATISTIC 2019.04.16 15:34:32 11213              sum of target all =  42M (43658020)
+STATISTIC 2019.04.16 15:34:32 11213              sum of target all = 100.00%
+STATISTIC 2019.04.16 15:34:32 11213              sum of target new = 2.1M (2201473)
+STATISTIC 2019.04.16 15:34:32 11213              sum of target new = 5.04%
+STATISTIC 2019.04.16 15:34:32 11213             sum of md5ed files = 2.1M (2222379)
+STATISTIC 2019.04.16 15:34:32 11213             sum of md5ed files = 5.09%
+STATISTIC 2019.04.16 15:34:32 11213     sum internal linked (copy) = 0.0  (0)
+STATISTIC 2019.04.16 15:34:32 11213    sum internal linked (compr) = 0.0  (0)
+STATISTIC 2019.04.16 15:34:32 11213          sum old linked (copy) =  16M (16342426)
+STATISTIC 2019.04.16 15:34:32 11213         sum old linked (compr) =  24M (25114121)
+STATISTIC 2019.04.16 15:34:32 11213           sum unchanged (copy) =  16M (16342426)
+STATISTIC 2019.04.16 15:34:32 11213          sum unchanged (compr) =  24M (25114121)
+STATISTIC 2019.04.16 15:34:32 11213                 sum new (copy) = 2.1M (2201473)
+STATISTIC 2019.04.16 15:34:32 11213                sum new (compr) = 0.0  (0)
+STATISTIC 2019.04.16 15:34:32 11213     sum new (compr), orig size = 0.0  (0)
+STATISTIC 2019.04.16 15:34:32 11213                 sum new / orig = 100.00%
+STATISTIC 2019.04.16 15:34:32 11213       size of md5CheckSum file = 2.9k (2961)
+STATISTIC 2019.04.16 15:34:32 11213     size of temporary db files = 0.0  (0)
+STATISTIC 2019.04.16 15:34:32 11213            deleted old backups = 0
+STATISTIC 2019.04.16 15:34:32 11213            deleted directories = 0
+STATISTIC 2019.04.16 15:34:32 11213                  deleted files = 0
+STATISTIC 2019.04.16 15:34:32 11213           (only) removed links = 0
+STATISTIC 2019.04.16 15:34:32 11213 freed space in old directories = 0.0  (0)
+STATISTIC 2019.04.16 15:34:32 11213       add. used space in files = 2.1M (2204434)
+STATISTIC 2019.04.16 15:34:32 11213                backup duration = 1s
+STATISTIC 2019.04.16 15:34:32 11213 over all files/sec (real time) = 56.00
+STATISTIC 2019.04.16 15:34:32 11213  over all files/sec (CPU time) = 105.66
+STATISTIC 2019.04.16 15:34:32 11213                      CPU usage = 53.00%
+INFO      2019.04.16 15:34:32 11213 removing lock file </tmp/storeBackup.lock>
+END       2019.04.16 15:34:32 11213 backing up directory </home/christian/Dropbox/Comp-Physics-3> to </home/christian/Dropbox/Comp-Physics-3/Versions/2019.04.16_15.34.31>
+ERROR     2019.05.08 17:33:12  6519 backupDir directory </home/christian/Dropbox/Comp-Physics-3/> does not exist
+try 'storeBackup.pl --help' to get a description of the options.
+
+ERROR     2019.05.08 17:33:12  6519 caught signal 1, terminating
+BEGIN     2019.05.08 17:35:07  6608 backing up directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3> to </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions>
+VERSION   2019.05.08 17:35:07  6608 storeBackup.pl, 3.5
+INFO      2019.05.08 17:35:07  6608 setting ARG_MAX to 63488 (Linux)
+INFO      2019.05.08 17:35:07  6608 comprRule = $size > 10000000 and not $file =~ /\.zip\Z|\.bz2\Z|\.gz\Z|\.tgz\Z|\.jpg\Z|\.gif\Z|\.tiff?\Z|\.mpe?g\Z|\.mp[34]\Z|\.mpe?[34]\Z|\.ogg\Z|\.gpg\Z|\.png\Z|\.lzma\Z|\.xz\Z|\.mov\Z/i
+INFO      2019.05.08 17:35:07  6608 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3> for existing backups
+INFO      2019.05.08 17:35:07  6608 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Literatur> for existing backups
+INFO      2019.05.08 17:35:07  6608 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/sourcecode_output_Data> for existing backups
+INFO      2019.05.08 17:35:07  6608 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Daten_FF> for existing backups
+INFO      2019.05.08 17:35:07  6608 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/documentation> for existing backups
+INFO      2019.05.08 17:35:07  6608 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/documentation/gnuplot_pictures> for existing backups
+INFO      2019.05.08 17:35:07  6608 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/documentation/gnuplot_pictures/final_pictures> for existing backups
+INFO      2019.05.08 17:35:07  6608 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/documentation/gnuplot_pictures/generated_data_for_plot> for existing backups
+INFO      2019.05.08 17:35:07  6608 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions> for existing backups
+INFO      2019.05.08 17:35:07  6608 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions/2019.04.20> for existing backups
+STATISTIC 2019.05.08 17:35:07  6608 found 9 backup series, 11 backups, 0 renamed backups
+INFO      2019.05.08 17:35:07  6608 consistency check finished successfully
+INFO      2019.05.08 17:35:07  6608 found no references to backups from lateLinks that need storeBackupUpdateBackup run
+INFO      2019.05.08 17:35:07  6608 excluding <Versions>:
+INFO      2019.05.08 17:35:07  6608     excluding </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions>
+INFO      2019.05.08 17:35:07  6608 target directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions> is in exception </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions> of source directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3>, ok
+INFO      2019.05.08 17:35:07  6608 creating lock file </tmp/storeBackup.lock>
+INFO      2019.05.08 17:35:07  6608 analysis of old Backups in </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions>:
+INFO      2019.05.08 17:35:07  6608    (11) Fri 2019.01.18_20.09.55 (109d21h): keepMinNumber12
+INFO      2019.05.08 17:35:07  6608    (10) Mon 2019.01.21_18.16.55 (106d23h): keepMinNumber11
+INFO      2019.05.08 17:35:07  6608    (9) Tue 2019.01.22_00.44.11 (106d16h): keepMinNumber10
+INFO      2019.05.08 17:35:07  6608    (8) Wed 2019.01.23_22.19.51 (104d19h): keepMinNumber9
+INFO      2019.05.08 17:35:07  6608    (7) Sun 2019.02.03_22.53.15 (93d18h): keepMinNumber8
+INFO      2019.05.08 17:35:07  6608    (6) Fri 2019.02.08_09.54.45 (89d7h): keepMinNumber7
+INFO      2019.05.08 17:35:07  6608    (5) Mon 2019.02.25_15.28.59 (72d2h): keepMinNumber6
+INFO      2019.05.08 17:35:07  6608    (4) Tue 2019.03.05_00.15.35 (64d17h): keepMinNumber5
+INFO      2019.05.08 17:35:07  6608    (3) Wed 2019.03.27_18.42.32 (41d22h): keepMinNumber4
+INFO      2019.05.08 17:35:07  6608    (2) Thu 2019.04.11_21.38.16 (26d19h): keepMinNumber3, keepWeekDays(30d)
+INFO      2019.05.08 17:35:07  6608    (1) Tue 2019.04.16_15.34.31 (22d2h): keepMinNumber2, keepWeekDays(30d)
+INFO      2019.05.08 17:35:07  6608    (0) Wed 2019.05.08_17.35.07 (0d0h): keepMinNumber1, keepWeekDays(30d)
+INFO      2019.05.08 17:35:07  6608 start reading /home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions/2019.04.16_15.34.31/.md5CheckSums.bz2
+INFO      2019.05.08 17:35:07  6608 finished reading /home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions/2019.04.16_15.34.31/.md5CheckSums.bz2 (59 entries)
+INFO      2019.05.08 17:35:07  6608 56 entries in dbm files
+INFO      2019.05.08 17:35:07  6608 0 entries in dbm block files
+INFO      2019.05.08 17:35:30  6608 setting atime, mtime of directories ...
+INFO      2019.05.08 17:35:30  6608 syncing ...
+STATISTIC 2019.05.08 17:35:33  6608  [sec] |      user|    system
+STATISTIC 2019.05.08 17:35:33  6608 -------+----------+----------
+STATISTIC 2019.05.08 17:35:33  6608 process|      0.32|      0.15
+STATISTIC 2019.05.08 17:35:33  6608 childs |     35.33|      0.90
+STATISTIC 2019.05.08 17:35:33  6608 -------+----------+----------
+STATISTIC 2019.05.08 17:35:33  6608 sum    |     35.65|      1.05 => 36.70 (37s)
+STATISTIC 2019.05.08 17:35:33  6608                    directories = 8
+STATISTIC 2019.05.08 17:35:33  6608                          files = 166
+STATISTIC 2019.05.08 17:35:33  6608                 symbolic links = 0
+STATISTIC 2019.05.08 17:35:33  6608                     late links = 0
+STATISTIC 2019.05.08 17:35:33  6608                    named pipes = 0
+STATISTIC 2019.05.08 17:35:33  6608                        sockets = 0
+STATISTIC 2019.05.08 17:35:33  6608                  block devices = 0
+STATISTIC 2019.05.08 17:35:33  6608              character devices = 0
+STATISTIC 2019.05.08 17:35:33  6608      new internal linked files = 4
+STATISTIC 2019.05.08 17:35:33  6608               old linked files = 34
+STATISTIC 2019.05.08 17:35:33  6608                unchanged files = 38
+STATISTIC 2019.05.08 17:35:33  6608                   copied files = 112
+STATISTIC 2019.05.08 17:35:33  6608               compressed files = 16
+STATISTIC 2019.05.08 17:35:33  6608                  blocked files = 0
+STATISTIC 2019.05.08 17:35:33  6608    excluded files because rule = 0 (0.0 )
+STATISTIC 2019.05.08 17:35:33  6608    included files because rule = 0 (0.0 )
+STATISTIC 2019.05.08 17:35:33  6608         max size of copy queue = 32
+STATISTIC 2019.05.08 17:35:33  6608  max size of compression queue = 11
+STATISTIC 2019.05.08 17:35:33  6608            calculated md5 sums = 294
+STATISTIC 2019.05.08 17:35:33  6608                    forks total = 35
+STATISTIC 2019.05.08 17:35:33  6608                      forks md5 = 7
+STATISTIC 2019.05.08 17:35:33  6608                     forks copy = 12
+STATISTIC 2019.05.08 17:35:33  6608                    forks bzip2 = 16
+STATISTIC 2019.05.08 17:35:33  6608                  sum of source = 278M (291271496)
+STATISTIC 2019.05.08 17:35:33  6608              sum of target all = 148M (154732774)
+STATISTIC 2019.05.08 17:35:33  6608              sum of target all = 53.12%
+STATISTIC 2019.05.08 17:35:33  6608              sum of target new = 108M (113505123)
+STATISTIC 2019.05.08 17:35:33  6608              sum of target new = 38.97%
+STATISTIC 2019.05.08 17:35:33  6608             sum of md5ed files = 272M (284801029)
+STATISTIC 2019.05.08 17:35:33  6608             sum of md5ed files = 97.78%
+STATISTIC 2019.05.08 17:35:33  6608     sum internal linked (copy) =  20k (20294)
+STATISTIC 2019.05.08 17:35:33  6608    sum internal linked (compr) = 0.0  (0)
+STATISTIC 2019.05.08 17:35:33  6608          sum old linked (copy) =  15M (16093236)
+STATISTIC 2019.05.08 17:35:33  6608         sum old linked (compr) =  24M (25114121)
+STATISTIC 2019.05.08 17:35:33  6608           sum unchanged (copy) =  15M (16113530)
+STATISTIC 2019.05.08 17:35:33  6608          sum unchanged (compr) =  24M (25114121)
+STATISTIC 2019.05.08 17:35:33  6608                 sum new (copy) =  38M (39732076)
+STATISTIC 2019.05.08 17:35:33  6608                sum new (compr) =  70M (73773047)
+STATISTIC 2019.05.08 17:35:33  6608     sum new (compr), orig size = 201M (210311769)
+STATISTIC 2019.05.08 17:35:33  6608                 sum new / orig = 45.39%
+STATISTIC 2019.05.08 17:35:33  6608       size of md5CheckSum file = 6.8k (6958)
+STATISTIC 2019.05.08 17:35:33  6608     size of temporary db files = 0.0  (0)
+STATISTIC 2019.05.08 17:35:33  6608            deleted old backups = 0
+STATISTIC 2019.05.08 17:35:33  6608            deleted directories = 0
+STATISTIC 2019.05.08 17:35:33  6608                  deleted files = 0
+STATISTIC 2019.05.08 17:35:33  6608           (only) removed links = 0
+STATISTIC 2019.05.08 17:35:33  6608 freed space in old directories = 0.0  (0)
+STATISTIC 2019.05.08 17:35:33  6608       add. used space in files = 108M (113512081)
+STATISTIC 2019.05.08 17:35:33  6608                backup duration = 26s
+STATISTIC 2019.05.08 17:35:33  6608 over all files/sec (real time) = 6.38
+STATISTIC 2019.05.08 17:35:33  6608  over all files/sec (CPU time) = 4.52
+STATISTIC 2019.05.08 17:35:33  6608                      CPU usage = 141.15%
+INFO      2019.05.08 17:35:33  6608 removing lock file </tmp/storeBackup.lock>
+END       2019.05.08 17:35:33  6608 backing up directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3> to </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions/2019.05.08_17.35.07>
+BEGIN     2019.05.15 17:02:25  4394 backing up directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3> to </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions>
+VERSION   2019.05.15 17:02:25  4394 storeBackup.pl, 3.5
+INFO      2019.05.15 17:02:25  4394 setting ARG_MAX to 63488 (Linux)
+INFO      2019.05.15 17:02:25  4394 comprRule = $size > 10000000 and not $file =~ /\.zip\Z|\.bz2\Z|\.gz\Z|\.tgz\Z|\.jpg\Z|\.gif\Z|\.tiff?\Z|\.mpe?g\Z|\.mp[34]\Z|\.mpe?[34]\Z|\.ogg\Z|\.gpg\Z|\.png\Z|\.lzma\Z|\.xz\Z|\.mov\Z/i
+INFO      2019.05.15 17:02:25  4394 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3> for existing backups
+INFO      2019.05.15 17:02:25  4394 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Literatur> for existing backups
+INFO      2019.05.15 17:02:25  4394 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/sourcecode_output_Data> for existing backups
+INFO      2019.05.15 17:02:25  4394 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Daten_FF> for existing backups
+INFO      2019.05.15 17:02:25  4394 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/documentation> for existing backups
+INFO      2019.05.15 17:02:25  4394 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/documentation/gnuplot_pictures> for existing backups
+INFO      2019.05.15 17:02:25  4394 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/documentation/gnuplot_pictures/final_pictures> for existing backups
+INFO      2019.05.15 17:02:25  4394 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/documentation/gnuplot_pictures/generated_data_for_plot> for existing backups
+INFO      2019.05.15 17:02:25  4394 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions> for existing backups
+INFO      2019.05.15 17:02:25  4394 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions/2019.04.20> for existing backups
+STATISTIC 2019.05.15 17:02:25  4394 found 9 backup series, 12 backups, 0 renamed backups
+INFO      2019.05.15 17:02:25  4394 consistency check finished successfully
+INFO      2019.05.15 17:02:25  4394 found no references to backups from lateLinks that need storeBackupUpdateBackup run
+INFO      2019.05.15 17:02:25  4394 excluding <Versions>:
+INFO      2019.05.15 17:02:25  4394     excluding </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions>
+INFO      2019.05.15 17:02:25  4394 target directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions> is in exception </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions> of source directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3>, ok
+INFO      2019.05.15 17:02:25  4394 creating lock file </tmp/storeBackup.lock>
+INFO      2019.05.15 17:02:25  4394 analysis of old Backups in </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions>:
+INFO      2019.05.15 17:02:25  4394    (12) Fri 2019.01.18_20.09.55 (116d20h): keepMinNumber13
+INFO      2019.05.15 17:02:25  4394    (11) Mon 2019.01.21_18.16.55 (113d22h): keepMinNumber12
+INFO      2019.05.15 17:02:25  4394    (10) Tue 2019.01.22_00.44.11 (113d16h): keepMinNumber11
+INFO      2019.05.15 17:02:25  4394    (9) Wed 2019.01.23_22.19.51 (111d18h): keepMinNumber10
+INFO      2019.05.15 17:02:25  4394    (8) Sun 2019.02.03_22.53.15 (100d18h): keepMinNumber9
+INFO      2019.05.15 17:02:25  4394    (7) Fri 2019.02.08_09.54.45 (96d7h): keepMinNumber8
+INFO      2019.05.15 17:02:25  4394    (6) Mon 2019.02.25_15.28.59 (79d1h): keepMinNumber7
+INFO      2019.05.15 17:02:25  4394    (5) Tue 2019.03.05_00.15.35 (71d16h): keepMinNumber6
+INFO      2019.05.15 17:02:25  4394    (4) Wed 2019.03.27_18.42.32 (48d22h): keepMinNumber5
+INFO      2019.05.15 17:02:25  4394    (3) Thu 2019.04.11_21.38.16 (33d19h): keepMinNumber4
+INFO      2019.05.15 17:02:25  4394    (2) Tue 2019.04.16_15.34.31 (29d1h): keepMinNumber3, keepWeekDays(30d)
+INFO      2019.05.15 17:02:25  4394    (1) Wed 2019.05.08_17.35.07 (6d23h): keepMinNumber2, keepWeekDays(30d)
+INFO      2019.05.15 17:02:25  4394    (0) Wed 2019.05.15_17.02.25 (0d0h): keepMinNumber1, keepWeekDays(30d)
+INFO      2019.05.15 17:02:25  4394 start reading /home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions/2019.05.08_17.35.07/.md5CheckSums.bz2
+INFO      2019.05.15 17:02:25  4394 finished reading /home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions/2019.05.08_17.35.07/.md5CheckSums.bz2 (174 entries)
+INFO      2019.05.15 17:02:25  4394 166 entries in dbm files
+INFO      2019.05.15 17:02:25  4394 0 entries in dbm block files
+INFO      2019.05.15 17:02:27  4394 setting atime, mtime of directories ...
+INFO      2019.05.15 17:02:27  4394 syncing ...
+STATISTIC 2019.05.15 17:02:28  4394  [sec] |      user|    system
+STATISTIC 2019.05.15 17:02:28  4394 -------+----------+----------
+STATISTIC 2019.05.15 17:02:28  4394 process|      0.27|      0.07
+STATISTIC 2019.05.15 17:02:28  4394 childs |      0.16|      0.02
+STATISTIC 2019.05.15 17:02:28  4394 -------+----------+----------
+STATISTIC 2019.05.15 17:02:28  4394 sum    |      0.43|      0.09 => 0.52 (1s)
+STATISTIC 2019.05.15 17:02:28  4394                    directories = 8
+STATISTIC 2019.05.15 17:02:28  4394                          files = 174
+STATISTIC 2019.05.15 17:02:28  4394                 symbolic links = 0
+STATISTIC 2019.05.15 17:02:28  4394                     late links = 0
+STATISTIC 2019.05.15 17:02:28  4394                    named pipes = 0
+STATISTIC 2019.05.15 17:02:28  4394                        sockets = 0
+STATISTIC 2019.05.15 17:02:28  4394                  block devices = 0
+STATISTIC 2019.05.15 17:02:28  4394              character devices = 0
+STATISTIC 2019.05.15 17:02:28  4394      new internal linked files = 0
+STATISTIC 2019.05.15 17:02:28  4394               old linked files = 164
+STATISTIC 2019.05.15 17:02:28  4394                unchanged files = 164
+STATISTIC 2019.05.15 17:02:28  4394                   copied files = 10
+STATISTIC 2019.05.15 17:02:28  4394               compressed files = 0
+STATISTIC 2019.05.15 17:02:28  4394                  blocked files = 0
+STATISTIC 2019.05.15 17:02:28  4394    excluded files because rule = 0 (0.0 )
+STATISTIC 2019.05.15 17:02:28  4394    included files because rule = 0 (0.0 )
+STATISTIC 2019.05.15 17:02:28  4394         max size of copy queue = 1
+STATISTIC 2019.05.15 17:02:28  4394  max size of compression queue = 0
+STATISTIC 2019.05.15 17:02:28  4394            calculated md5 sums = 27
+STATISTIC 2019.05.15 17:02:28  4394                    forks total = 2
+STATISTIC 2019.05.15 17:02:28  4394                      forks md5 = 2
+STATISTIC 2019.05.15 17:02:28  4394                     forks copy = 0
+STATISTIC 2019.05.15 17:02:28  4394                    forks bzip2 = 0
+STATISTIC 2019.05.15 17:02:28  4394                  sum of source = 278M (291374970)
+STATISTIC 2019.05.15 17:02:28  4394              sum of target all = 278M (291374970)
+STATISTIC 2019.05.15 17:02:28  4394              sum of target all = 100.00%
+STATISTIC 2019.05.15 17:02:28  4394              sum of target new = 269k (275750)
+STATISTIC 2019.05.15 17:02:28  4394              sum of target new = 0.09%
+STATISTIC 2019.05.15 17:02:28  4394             sum of md5ed files = 291k (297965)
+STATISTIC 2019.05.15 17:02:28  4394             sum of md5ed files = 0.10%
+STATISTIC 2019.05.15 17:02:28  4394     sum internal linked (copy) = 0.0  (0)
+STATISTIC 2019.05.15 17:02:28  4394    sum internal linked (compr) = 0.0  (0)
+STATISTIC 2019.05.15 17:02:28  4394          sum old linked (copy) =  53M (55673330)
+STATISTIC 2019.05.15 17:02:28  4394         sum old linked (compr) = 225M (235425890)
+STATISTIC 2019.05.15 17:02:28  4394           sum unchanged (copy) =  53M (55673330)
+STATISTIC 2019.05.15 17:02:28  4394          sum unchanged (compr) = 225M (235425890)
+STATISTIC 2019.05.15 17:02:28  4394                 sum new (copy) = 269k (275750)
+STATISTIC 2019.05.15 17:02:28  4394                sum new (compr) = 0.0  (0)
+STATISTIC 2019.05.15 17:02:28  4394     sum new (compr), orig size = 0.0  (0)
+STATISTIC 2019.05.15 17:02:28  4394                 sum new / orig = 100.00%
+STATISTIC 2019.05.15 17:02:28  4394       size of md5CheckSum file = 7.0k (7210)
+STATISTIC 2019.05.15 17:02:28  4394     size of temporary db files = 0.0  (0)
+STATISTIC 2019.05.15 17:02:28  4394            deleted old backups = 0
+STATISTIC 2019.05.15 17:02:28  4394            deleted directories = 0
+STATISTIC 2019.05.15 17:02:28  4394                  deleted files = 0
+STATISTIC 2019.05.15 17:02:28  4394           (only) removed links = 0
+STATISTIC 2019.05.15 17:02:28  4394 freed space in old directories = 0.0  (0)
+STATISTIC 2019.05.15 17:02:28  4394       add. used space in files = 276k (282960)
+STATISTIC 2019.05.15 17:02:28  4394                backup duration = 3s
+STATISTIC 2019.05.15 17:02:28  4394 over all files/sec (real time) = 58.00
+STATISTIC 2019.05.15 17:02:28  4394  over all files/sec (CPU time) = 334.62
+STATISTIC 2019.05.15 17:02:28  4394                      CPU usage = 17.33%
+INFO      2019.05.15 17:02:28  4394 removing lock file </tmp/storeBackup.lock>
+END       2019.05.15 17:02:28  4394 backing up directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3> to </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions/2019.05.15_17.02.25>
+BEGIN     2019.05.16 18:15:00  5632 backing up directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3> to </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions>
+VERSION   2019.05.16 18:15:00  5632 storeBackup.pl, 3.5
+INFO      2019.05.16 18:15:00  5632 setting ARG_MAX to 63488 (Linux)
+INFO      2019.05.16 18:15:00  5632 comprRule = $size > 10000000 and not $file =~ /\.zip\Z|\.bz2\Z|\.gz\Z|\.tgz\Z|\.jpg\Z|\.gif\Z|\.tiff?\Z|\.mpe?g\Z|\.mp[34]\Z|\.mpe?[34]\Z|\.ogg\Z|\.gpg\Z|\.png\Z|\.lzma\Z|\.xz\Z|\.mov\Z/i
+INFO      2019.05.16 18:15:00  5632 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3> for existing backups
+INFO      2019.05.16 18:15:00  5632 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Literatur> for existing backups
+INFO      2019.05.16 18:15:00  5632 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/sourcecode_output_Data> for existing backups
+INFO      2019.05.16 18:15:00  5632 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Daten_FF> for existing backups
+INFO      2019.05.16 18:15:00  5632 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/documentation> for existing backups
+INFO      2019.05.16 18:15:00  5632 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/documentation/gnuplot_pictures> for existing backups
+INFO      2019.05.16 18:15:00  5632 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/documentation/gnuplot_pictures/final_pictures> for existing backups
+INFO      2019.05.16 18:15:00  5632 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/documentation/gnuplot_pictures/generated_data_for_plot> for existing backups
+INFO      2019.05.16 18:15:00  5632 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions> for existing backups
+INFO      2019.05.16 18:15:00  5632 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions/2019.04.20> for existing backups
+STATISTIC 2019.05.16 18:15:00  5632 found 9 backup series, 13 backups, 0 renamed backups
+INFO      2019.05.16 18:15:00  5632 consistency check finished successfully
+INFO      2019.05.16 18:15:00  5632 found no references to backups from lateLinks that need storeBackupUpdateBackup run
+INFO      2019.05.16 18:15:00  5632 excluding <Versions>:
+INFO      2019.05.16 18:15:00  5632     excluding </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions>
+INFO      2019.05.16 18:15:00  5632 target directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions> is in exception </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions> of source directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3>, ok
+INFO      2019.05.16 18:15:00  5632 creating lock file </tmp/storeBackup.lock>
+INFO      2019.05.16 18:15:00  5632 analysis of old Backups in </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions>:
+INFO      2019.05.16 18:15:00  5632    (13) Fri 2019.01.18_20.09.55 (117d22h): keepMinNumber14
+INFO      2019.05.16 18:15:00  5632    (12) Mon 2019.01.21_18.16.55 (114d23h): keepMinNumber13
+INFO      2019.05.16 18:15:00  5632    (11) Tue 2019.01.22_00.44.11 (114d17h): keepMinNumber12
+INFO      2019.05.16 18:15:00  5632    (10) Wed 2019.01.23_22.19.51 (112d19h): keepMinNumber11
+INFO      2019.05.16 18:15:00  5632    (9) Sun 2019.02.03_22.53.15 (101d19h): keepMinNumber10
+INFO      2019.05.16 18:15:00  5632    (8) Fri 2019.02.08_09.54.45 (97d8h): keepMinNumber9
+INFO      2019.05.16 18:15:00  5632    (7) Mon 2019.02.25_15.28.59 (80d2h): keepMinNumber8
+INFO      2019.05.16 18:15:00  5632    (6) Tue 2019.03.05_00.15.35 (72d17h): keepMinNumber7
+INFO      2019.05.16 18:15:00  5632    (5) Wed 2019.03.27_18.42.32 (49d23h): keepMinNumber6
+INFO      2019.05.16 18:15:00  5632    (4) Thu 2019.04.11_21.38.16 (34d20h): keepMinNumber5
+INFO      2019.05.16 18:15:00  5632    (3) Tue 2019.04.16_15.34.31 (30d2h): keepMinNumber4
+INFO      2019.05.16 18:15:00  5632    (2) Wed 2019.05.08_17.35.07 (8d0h): keepMinNumber3, keepWeekDays(30d)
+INFO      2019.05.16 18:15:00  5632    (1) Wed 2019.05.15_17.02.25 (1d1h): keepMinNumber2, keepWeekDays(30d)
+INFO      2019.05.16 18:15:00  5632    (0) Thu 2019.05.16_18.15.00 (0d0h): keepMinNumber1, keepWeekDays(30d)
+INFO      2019.05.16 18:15:01  5632 start reading /home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions/2019.05.15_17.02.25/.md5CheckSums.bz2
+INFO      2019.05.16 18:15:01  5632 finished reading /home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions/2019.05.15_17.02.25/.md5CheckSums.bz2 (182 entries)
+INFO      2019.05.16 18:15:01  5632 174 entries in dbm files
+INFO      2019.05.16 18:15:01  5632 0 entries in dbm block files
+INFO      2019.05.16 18:15:01  5632 setting atime, mtime of directories ...
+INFO      2019.05.16 18:15:01  5632 syncing ...
+STATISTIC 2019.05.16 18:15:01  5632  [sec] |      user|    system
+STATISTIC 2019.05.16 18:15:01  5632 -------+----------+----------
+STATISTIC 2019.05.16 18:15:01  5632 process|      0.26|      0.07
+STATISTIC 2019.05.16 18:15:01  5632 childs |      0.15|      0.02
+STATISTIC 2019.05.16 18:15:01  5632 -------+----------+----------
+STATISTIC 2019.05.16 18:15:01  5632 sum    |      0.41|      0.09 => 0.50 (1s)
+STATISTIC 2019.05.16 18:15:01  5632                    directories = 8
+STATISTIC 2019.05.16 18:15:01  5632                          files = 174
+STATISTIC 2019.05.16 18:15:01  5632                 symbolic links = 0
+STATISTIC 2019.05.16 18:15:01  5632                     late links = 0
+STATISTIC 2019.05.16 18:15:01  5632                    named pipes = 0
+STATISTIC 2019.05.16 18:15:01  5632                        sockets = 0
+STATISTIC 2019.05.16 18:15:01  5632                  block devices = 0
+STATISTIC 2019.05.16 18:15:01  5632              character devices = 0
+STATISTIC 2019.05.16 18:15:01  5632      new internal linked files = 0
+STATISTIC 2019.05.16 18:15:01  5632               old linked files = 160
+STATISTIC 2019.05.16 18:15:01  5632                unchanged files = 160
+STATISTIC 2019.05.16 18:15:01  5632                   copied files = 14
+STATISTIC 2019.05.16 18:15:01  5632               compressed files = 0
+STATISTIC 2019.05.16 18:15:01  5632                  blocked files = 0
+STATISTIC 2019.05.16 18:15:01  5632    excluded files because rule = 0 (0.0 )
+STATISTIC 2019.05.16 18:15:01  5632    included files because rule = 0 (0.0 )
+STATISTIC 2019.05.16 18:15:01  5632         max size of copy queue = 1
+STATISTIC 2019.05.16 18:15:01  5632  max size of compression queue = 0
+STATISTIC 2019.05.16 18:15:01  5632            calculated md5 sums = 31
+STATISTIC 2019.05.16 18:15:01  5632                    forks total = 3
+STATISTIC 2019.05.16 18:15:01  5632                      forks md5 = 3
+STATISTIC 2019.05.16 18:15:01  5632                     forks copy = 0
+STATISTIC 2019.05.16 18:15:01  5632                    forks bzip2 = 0
+STATISTIC 2019.05.16 18:15:01  5632                  sum of source = 278M (291405958)
+STATISTIC 2019.05.16 18:15:01  5632              sum of target all = 278M (291405958)
+STATISTIC 2019.05.16 18:15:01  5632              sum of target all = 100.00%
+STATISTIC 2019.05.16 18:15:01  5632              sum of target new = 750k (767562)
+STATISTIC 2019.05.16 18:15:01  5632              sum of target new = 0.26%
+STATISTIC 2019.05.16 18:15:01  5632             sum of md5ed files = 836k (855969)
+STATISTIC 2019.05.16 18:15:01  5632             sum of md5ed files = 0.29%
+STATISTIC 2019.05.16 18:15:01  5632     sum internal linked (copy) = 0.0  (0)
+STATISTIC 2019.05.16 18:15:01  5632    sum internal linked (compr) = 0.0  (0)
+STATISTIC 2019.05.16 18:15:01  5632          sum old linked (copy) =  53M (55212506)
+STATISTIC 2019.05.16 18:15:01  5632         sum old linked (compr) = 225M (235425890)
+STATISTIC 2019.05.16 18:15:01  5632           sum unchanged (copy) =  53M (55212506)
+STATISTIC 2019.05.16 18:15:01  5632          sum unchanged (compr) = 225M (235425890)
+STATISTIC 2019.05.16 18:15:01  5632                 sum new (copy) = 750k (767562)
+STATISTIC 2019.05.16 18:15:01  5632                sum new (compr) = 0.0  (0)
+STATISTIC 2019.05.16 18:15:01  5632     sum new (compr), orig size = 0.0  (0)
+STATISTIC 2019.05.16 18:15:01  5632                 sum new / orig = 100.00%
+STATISTIC 2019.05.16 18:15:01  5632       size of md5CheckSum file = 7.1k (7286)
+STATISTIC 2019.05.16 18:15:01  5632     size of temporary db files = 0.0  (0)
+STATISTIC 2019.05.16 18:15:01  5632            deleted old backups = 0
+STATISTIC 2019.05.16 18:15:01  5632            deleted directories = 0
+STATISTIC 2019.05.16 18:15:01  5632                  deleted files = 0
+STATISTIC 2019.05.16 18:15:01  5632           (only) removed links = 0
+STATISTIC 2019.05.16 18:15:01  5632 freed space in old directories = 0.0  (0)
+STATISTIC 2019.05.16 18:15:01  5632       add. used space in files = 757k (774848)
+STATISTIC 2019.05.16 18:15:01  5632                backup duration = 1s
+STATISTIC 2019.05.16 18:15:01  5632 over all files/sec (real time) = 174.00
+STATISTIC 2019.05.16 18:15:01  5632  over all files/sec (CPU time) = 348.00
+STATISTIC 2019.05.16 18:15:01  5632                      CPU usage = 50.00%
+INFO      2019.05.16 18:15:01  5632 removing lock file </tmp/storeBackup.lock>
+END       2019.05.16 18:15:01  5632 backing up directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3> to </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions/2019.05.16_18.15.00>
+BEGIN     2019.05.24 19:01:59 16216 backing up directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3> to </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions>
+VERSION   2019.05.24 19:01:59 16216 storeBackup.pl, 3.5
+INFO      2019.05.24 19:01:59 16216 setting ARG_MAX to 63488 (Linux)
+INFO      2019.05.24 19:01:59 16216 comprRule = $size > 10000000 and not $file =~ /\.zip\Z|\.bz2\Z|\.gz\Z|\.tgz\Z|\.jpg\Z|\.gif\Z|\.tiff?\Z|\.mpe?g\Z|\.mp[34]\Z|\.mpe?[34]\Z|\.ogg\Z|\.gpg\Z|\.png\Z|\.lzma\Z|\.xz\Z|\.mov\Z/i
+INFO      2019.05.24 19:01:59 16216 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3> for existing backups
+INFO      2019.05.24 19:01:59 16216 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Literatur> for existing backups
+INFO      2019.05.24 19:01:59 16216 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/sourcecode_output_Data> for existing backups
+INFO      2019.05.24 19:01:59 16216 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Daten_FF> for existing backups
+INFO      2019.05.24 19:01:59 16216 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/documentation> for existing backups
+INFO      2019.05.24 19:01:59 16216 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/documentation/gnuplot_pictures> for existing backups
+INFO      2019.05.24 19:01:59 16216 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/documentation/gnuplot_pictures/final_pictures> for existing backups
+INFO      2019.05.24 19:01:59 16216 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/documentation/gnuplot_pictures/generated_data_for_plot> for existing backups
+INFO      2019.05.24 19:01:59 16216 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions> for existing backups
+INFO      2019.05.24 19:01:59 16216 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions/2019.04.20> for existing backups
+STATISTIC 2019.05.24 19:01:59 16216 found 9 backup series, 14 backups, 0 renamed backups
+INFO      2019.05.24 19:01:59 16216 consistency check finished successfully
+INFO      2019.05.24 19:01:59 16216 found no references to backups from lateLinks that need storeBackupUpdateBackup run
+INFO      2019.05.24 19:01:59 16216 excluding <Versions>:
+INFO      2019.05.24 19:01:59 16216     excluding </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions>
+INFO      2019.05.24 19:01:59 16216 target directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions> is in exception </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions> of source directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3>, ok
+INFO      2019.05.24 19:01:59 16216 creating lock file </tmp/storeBackup.lock>
+INFO      2019.05.24 19:01:59 16216 analysis of old Backups in </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions>:
+INFO      2019.05.24 19:01:59 16216    (14) Fri 2019.01.18_20.09.55 (125d22h): keepMinNumber15
+INFO      2019.05.24 19:01:59 16216    (13) Mon 2019.01.21_18.16.55 (123d0h): keepMinNumber14
+INFO      2019.05.24 19:01:59 16216    (12) Tue 2019.01.22_00.44.11 (122d18h): keepMinNumber13
+INFO      2019.05.24 19:01:59 16216    (11) Wed 2019.01.23_22.19.51 (120d20h): keepMinNumber12
+INFO      2019.05.24 19:01:59 16216    (10) Sun 2019.02.03_22.53.15 (109d20h): keepMinNumber11
+INFO      2019.05.24 19:01:59 16216    (9) Fri 2019.02.08_09.54.45 (105d9h): keepMinNumber10
+INFO      2019.05.24 19:01:59 16216    (8) Mon 2019.02.25_15.28.59 (88d3h): keepMinNumber9
+INFO      2019.05.24 19:01:59 16216    (7) Tue 2019.03.05_00.15.35 (80d18h): keepMinNumber8
+INFO      2019.05.24 19:01:59 16216    (6) Wed 2019.03.27_18.42.32 (58d0h): keepMinNumber7
+INFO      2019.05.24 19:01:59 16216    (5) Thu 2019.04.11_21.38.16 (42d21h): keepMinNumber6
+INFO      2019.05.24 19:01:59 16216    (4) Tue 2019.04.16_15.34.31 (38d3h): keepMinNumber5
+INFO      2019.05.24 19:01:59 16216    (3) Wed 2019.05.08_17.35.07 (16d1h): keepMinNumber4, keepWeekDays(30d)
+INFO      2019.05.24 19:01:59 16216    (2) Wed 2019.05.15_17.02.25 (9d1h): keepMinNumber3, keepWeekDays(30d)
+INFO      2019.05.24 19:01:59 16216    (1) Thu 2019.05.16_18.15.00 (8d0h): keepMinNumber2, keepWeekDays(30d)
+INFO      2019.05.24 19:01:59 16216    (0) Fri 2019.05.24_19.01.59 (0d0h): keepMinNumber1, keepWeekDays(30d)
+INFO      2019.05.24 19:01:59 16216 start reading /home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions/2019.05.16_18.15.00/.md5CheckSums.bz2
+INFO      2019.05.24 19:01:59 16216 finished reading /home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions/2019.05.16_18.15.00/.md5CheckSums.bz2 (182 entries)
+INFO      2019.05.24 19:01:59 16216 174 entries in dbm files
+INFO      2019.05.24 19:01:59 16216 0 entries in dbm block files
+INFO      2019.05.24 19:02:00 16216 setting atime, mtime of directories ...
+INFO      2019.05.24 19:02:00 16216 syncing ...
+STATISTIC 2019.05.24 19:02:01 16216  [sec] |      user|    system
+STATISTIC 2019.05.24 19:02:01 16216 -------+----------+----------
+STATISTIC 2019.05.24 19:02:01 16216 process|      0.28|      0.09
+STATISTIC 2019.05.24 19:02:01 16216 childs |      0.19|      0.04
+STATISTIC 2019.05.24 19:02:01 16216 -------+----------+----------
+STATISTIC 2019.05.24 19:02:01 16216 sum    |      0.47|      0.13 => 0.60 (1s)
+STATISTIC 2019.05.24 19:02:01 16216                    directories = 8
+STATISTIC 2019.05.24 19:02:01 16216                          files = 185
+STATISTIC 2019.05.24 19:02:01 16216                 symbolic links = 0
+STATISTIC 2019.05.24 19:02:01 16216                     late links = 0
+STATISTIC 2019.05.24 19:02:01 16216                    named pipes = 0
+STATISTIC 2019.05.24 19:02:01 16216                        sockets = 0
+STATISTIC 2019.05.24 19:02:01 16216                  block devices = 0
+STATISTIC 2019.05.24 19:02:01 16216              character devices = 0
+STATISTIC 2019.05.24 19:02:01 16216      new internal linked files = 1
+STATISTIC 2019.05.24 19:02:01 16216               old linked files = 159
+STATISTIC 2019.05.24 19:02:01 16216                unchanged files = 160
+STATISTIC 2019.05.24 19:02:01 16216                   copied files = 25
+STATISTIC 2019.05.24 19:02:01 16216               compressed files = 0
+STATISTIC 2019.05.24 19:02:01 16216                  blocked files = 0
+STATISTIC 2019.05.24 19:02:01 16216    excluded files because rule = 0 (0.0 )
+STATISTIC 2019.05.24 19:02:01 16216    included files because rule = 0 (0.0 )
+STATISTIC 2019.05.24 19:02:01 16216         max size of copy queue = 1
+STATISTIC 2019.05.24 19:02:01 16216  max size of compression queue = 0
+STATISTIC 2019.05.24 19:02:01 16216            calculated md5 sums = 57
+STATISTIC 2019.05.24 19:02:01 16216                    forks total = 4
+STATISTIC 2019.05.24 19:02:01 16216                      forks md5 = 4
+STATISTIC 2019.05.24 19:02:01 16216                     forks copy = 0
+STATISTIC 2019.05.24 19:02:01 16216                    forks bzip2 = 0
+STATISTIC 2019.05.24 19:02:01 16216                  sum of source = 278M (291633837)
+STATISTIC 2019.05.24 19:02:01 16216              sum of target all = 278M (291633837)
+STATISTIC 2019.05.24 19:02:01 16216              sum of target all = 100.00%
+STATISTIC 2019.05.24 19:02:01 16216              sum of target new = 1.0M (1056972)
+STATISTIC 2019.05.24 19:02:01 16216              sum of target new = 0.36%
+STATISTIC 2019.05.24 19:02:01 16216             sum of md5ed files =  14M (14211533)
+STATISTIC 2019.05.24 19:02:01 16216             sum of md5ed files = 4.87%
+STATISTIC 2019.05.24 19:02:01 16216     sum internal linked (copy) = 342  (342)
+STATISTIC 2019.05.24 19:02:01 16216    sum internal linked (compr) = 0.0  (0)
+STATISTIC 2019.05.24 19:02:01 16216          sum old linked (copy) =  53M (55150633)
+STATISTIC 2019.05.24 19:02:01 16216         sum old linked (compr) = 225M (235425890)
+STATISTIC 2019.05.24 19:02:01 16216           sum unchanged (copy) =  53M (55150975)
+STATISTIC 2019.05.24 19:02:01 16216          sum unchanged (compr) = 225M (235425890)
+STATISTIC 2019.05.24 19:02:01 16216                 sum new (copy) = 1.0M (1056972)
+STATISTIC 2019.05.24 19:02:01 16216                sum new (compr) = 0.0  (0)
+STATISTIC 2019.05.24 19:02:01 16216     sum new (compr), orig size = 0.0  (0)
+STATISTIC 2019.05.24 19:02:01 16216                 sum new / orig = 100.00%
+STATISTIC 2019.05.24 19:02:01 16216       size of md5CheckSum file = 7.5k (7667)
+STATISTIC 2019.05.24 19:02:01 16216     size of temporary db files = 0.0  (0)
+STATISTIC 2019.05.24 19:02:01 16216            deleted old backups = 0
+STATISTIC 2019.05.24 19:02:01 16216            deleted directories = 0
+STATISTIC 2019.05.24 19:02:01 16216                  deleted files = 0
+STATISTIC 2019.05.24 19:02:01 16216           (only) removed links = 0
+STATISTIC 2019.05.24 19:02:01 16216 freed space in old directories = 0.0  (0)
+STATISTIC 2019.05.24 19:02:01 16216       add. used space in files = 1.0M (1064639)
+STATISTIC 2019.05.24 19:02:01 16216                backup duration = 2s
+STATISTIC 2019.05.24 19:02:01 16216 over all files/sec (real time) = 92.50
+STATISTIC 2019.05.24 19:02:01 16216  over all files/sec (CPU time) = 308.33
+STATISTIC 2019.05.24 19:02:01 16216                      CPU usage = 30.00%
+INFO      2019.05.24 19:02:01 16216 removing lock file </tmp/storeBackup.lock>
+END       2019.05.24 19:02:01 16216 backing up directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3> to </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions/2019.05.24_19.01.59>
+BEGIN     2019.05.26 13:31:15 16992 backing up directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3> to </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions>
+VERSION   2019.05.26 13:31:15 16992 storeBackup.pl, 3.5
+INFO      2019.05.26 13:31:16 16992 setting ARG_MAX to 63488 (Linux)
+INFO      2019.05.26 13:31:16 16992 comprRule = $size > 10000000 and not $file =~ /\.zip\Z|\.bz2\Z|\.gz\Z|\.tgz\Z|\.jpg\Z|\.gif\Z|\.tiff?\Z|\.mpe?g\Z|\.mp[34]\Z|\.mpe?[34]\Z|\.ogg\Z|\.gpg\Z|\.png\Z|\.lzma\Z|\.xz\Z|\.mov\Z/i
+INFO      2019.05.26 13:31:18 16992 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3> for existing backups
+INFO      2019.05.26 13:31:18 16992 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Literatur> for existing backups
+INFO      2019.05.26 13:31:18 16992 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/sourcecode_output_Data> for existing backups
+INFO      2019.05.26 13:31:18 16992 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Daten_FF> for existing backups
+INFO      2019.05.26 13:31:18 16992 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/documentation> for existing backups
+INFO      2019.05.26 13:31:18 16992 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/documentation/gnuplot_pictures> for existing backups
+INFO      2019.05.26 13:31:18 16992 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/documentation/gnuplot_pictures/final_pictures> for existing backups
+INFO      2019.05.26 13:31:18 16992 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/documentation/gnuplot_pictures/generated_data_for_plot> for existing backups
+INFO      2019.05.26 13:31:18 16992 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions> for existing backups
+INFO      2019.05.26 13:31:18 16992 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions/2019.04.20> for existing backups
+STATISTIC 2019.05.26 13:31:18 16992 found 9 backup series, 15 backups, 0 renamed backups
+INFO      2019.05.26 13:31:18 16992 consistency check finished successfully
+INFO      2019.05.26 13:31:18 16992 found no references to backups from lateLinks that need storeBackupUpdateBackup run
+INFO      2019.05.26 13:31:18 16992 excluding <Versions>:
+INFO      2019.05.26 13:31:18 16992     excluding </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions>
+INFO      2019.05.26 13:31:18 16992 target directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions> is in exception </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions> of source directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3>, ok
+INFO      2019.05.26 13:31:18 16992 creating lock file </tmp/storeBackup.lock>
+INFO      2019.05.26 13:31:18 16992 analysis of old Backups in </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions>:
+INFO      2019.05.26 13:31:18 16992    (15) Fri 2019.01.18_20.09.55 (127d17h): keepMinNumber16
+INFO      2019.05.26 13:31:18 16992    (14) Mon 2019.01.21_18.16.55 (124d19h): keepMinNumber15
+INFO      2019.05.26 13:31:18 16992    (13) Tue 2019.01.22_00.44.11 (124d12h): keepMinNumber14
+INFO      2019.05.26 13:31:18 16992    (12) Wed 2019.01.23_22.19.51 (122d15h): keepMinNumber13
+INFO      2019.05.26 13:31:18 16992    (11) Sun 2019.02.03_22.53.15 (111d14h): keepMinNumber12
+INFO      2019.05.26 13:31:18 16992    (10) Fri 2019.02.08_09.54.45 (107d3h): keepMinNumber11
+INFO      2019.05.26 13:31:18 16992    (9) Mon 2019.02.25_15.28.59 (89d22h): keepMinNumber10
+INFO      2019.05.26 13:31:18 16992    (8) Tue 2019.03.05_00.15.35 (82d13h): keepMinNumber9
+INFO      2019.05.26 13:31:18 16992    (7) Wed 2019.03.27_18.42.32 (59d18h): keepMinNumber8
+INFO      2019.05.26 13:31:18 16992    (6) Thu 2019.04.11_21.38.16 (44d15h): keepMinNumber7
+INFO      2019.05.26 13:31:18 16992    (5) Tue 2019.04.16_15.34.31 (39d21h): keepMinNumber6
+INFO      2019.05.26 13:31:18 16992    (4) Wed 2019.05.08_17.35.07 (17d19h): keepMinNumber5, keepWeekDays(30d)
+INFO      2019.05.26 13:31:18 16992    (3) Wed 2019.05.15_17.02.25 (10d20h): keepMinNumber4, keepWeekDays(30d)
+INFO      2019.05.26 13:31:18 16992    (2) Thu 2019.05.16_18.15.00 (9d19h): keepMinNumber3, keepWeekDays(30d)
+INFO      2019.05.26 13:31:18 16992    (1) Fri 2019.05.24_19.01.59 (1d18h): keepMinNumber2, keepWeekDays(30d)
+INFO      2019.05.26 13:31:18 16992    (0) Sun 2019.05.26_13.31.18 (0d0h): keepMinNumber1, keepWeekDays(30d)
+INFO      2019.05.26 13:31:18 16992 start reading /home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions/2019.05.24_19.01.59/.md5CheckSums.bz2
+INFO      2019.05.26 13:31:18 16992 finished reading /home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions/2019.05.24_19.01.59/.md5CheckSums.bz2 (193 entries)
+INFO      2019.05.26 13:31:18 16992 185 entries in dbm files
+INFO      2019.05.26 13:31:18 16992 0 entries in dbm block files
+INFO      2019.05.26 13:31:25 16992 setting atime, mtime of directories ...
+INFO      2019.05.26 13:31:25 16992 syncing ...
+STATISTIC 2019.05.26 13:31:32 16992  [sec] |      user|    system
+STATISTIC 2019.05.26 13:31:32 16992 -------+----------+----------
+STATISTIC 2019.05.26 13:31:32 16992 process|      0.27|      0.09
+STATISTIC 2019.05.26 13:31:32 16992 childs |      0.17|      0.03
+STATISTIC 2019.05.26 13:31:32 16992 -------+----------+----------
+STATISTIC 2019.05.26 13:31:32 16992 sum    |      0.44|      0.12 => 0.56 (1s)
+STATISTIC 2019.05.26 13:31:32 16992                    directories = 8
+STATISTIC 2019.05.26 13:31:32 16992                          files = 185
+STATISTIC 2019.05.26 13:31:32 16992                 symbolic links = 0
+STATISTIC 2019.05.26 13:31:32 16992                     late links = 0
+STATISTIC 2019.05.26 13:31:32 16992                    named pipes = 0
+STATISTIC 2019.05.26 13:31:32 16992                        sockets = 0
+STATISTIC 2019.05.26 13:31:32 16992                  block devices = 0
+STATISTIC 2019.05.26 13:31:32 16992              character devices = 0
+STATISTIC 2019.05.26 13:31:32 16992      new internal linked files = 0
+STATISTIC 2019.05.26 13:31:32 16992               old linked files = 173
+STATISTIC 2019.05.26 13:31:32 16992                unchanged files = 173
+STATISTIC 2019.05.26 13:31:32 16992                   copied files = 12
+STATISTIC 2019.05.26 13:31:32 16992               compressed files = 0
+STATISTIC 2019.05.26 13:31:32 16992                  blocked files = 0
+STATISTIC 2019.05.26 13:31:32 16992    excluded files because rule = 0 (0.0 )
+STATISTIC 2019.05.26 13:31:32 16992    included files because rule = 0 (0.0 )
+STATISTIC 2019.05.26 13:31:32 16992         max size of copy queue = 1
+STATISTIC 2019.05.26 13:31:32 16992  max size of compression queue = 0
+STATISTIC 2019.05.26 13:31:32 16992            calculated md5 sums = 29
+STATISTIC 2019.05.26 13:31:32 16992                    forks total = 3
+STATISTIC 2019.05.26 13:31:32 16992                      forks md5 = 3
+STATISTIC 2019.05.26 13:31:32 16992                     forks copy = 0
+STATISTIC 2019.05.26 13:31:32 16992                    forks bzip2 = 0
+STATISTIC 2019.05.26 13:31:32 16992                  sum of source = 278M (291646052)
+STATISTIC 2019.05.26 13:31:32 16992              sum of target all = 278M (291646052)
+STATISTIC 2019.05.26 13:31:32 16992              sum of target all = 100.00%
+STATISTIC 2019.05.26 13:31:32 16992              sum of target new = 707k (723884)
+STATISTIC 2019.05.26 13:31:32 16992              sum of target new = 0.25%
+STATISTIC 2019.05.26 13:31:32 16992             sum of md5ed files = 803k (822746)
+STATISTIC 2019.05.26 13:31:32 16992             sum of md5ed files = 0.28%
+STATISTIC 2019.05.26 13:31:32 16992     sum internal linked (copy) = 0.0  (0)
+STATISTIC 2019.05.26 13:31:32 16992    sum internal linked (compr) = 0.0  (0)
+STATISTIC 2019.05.26 13:31:32 16992          sum old linked (copy) =  53M (55496278)
+STATISTIC 2019.05.26 13:31:32 16992         sum old linked (compr) = 225M (235425890)
+STATISTIC 2019.05.26 13:31:32 16992           sum unchanged (copy) =  53M (55496278)
+STATISTIC 2019.05.26 13:31:32 16992          sum unchanged (compr) = 225M (235425890)
+STATISTIC 2019.05.26 13:31:32 16992                 sum new (copy) = 707k (723884)
+STATISTIC 2019.05.26 13:31:32 16992                sum new (compr) = 0.0  (0)
+STATISTIC 2019.05.26 13:31:32 16992     sum new (compr), orig size = 0.0  (0)
+STATISTIC 2019.05.26 13:31:32 16992                 sum new / orig = 100.00%
+STATISTIC 2019.05.26 13:31:32 16992       size of md5CheckSum file = 7.5k (7697)
+STATISTIC 2019.05.26 13:31:32 16992     size of temporary db files = 0.0  (0)
+STATISTIC 2019.05.26 13:31:32 16992            deleted old backups = 0
+STATISTIC 2019.05.26 13:31:32 16992            deleted directories = 0
+STATISTIC 2019.05.26 13:31:32 16992                  deleted files = 0
+STATISTIC 2019.05.26 13:31:32 16992           (only) removed links = 0
+STATISTIC 2019.05.26 13:31:32 16992 freed space in old directories = 0.0  (0)
+STATISTIC 2019.05.26 13:31:32 16992       add. used space in files = 714k (731581)
+STATISTIC 2019.05.26 13:31:32 16992                backup duration = 14s
+STATISTIC 2019.05.26 13:31:32 16992 over all files/sec (real time) = 13.21
+STATISTIC 2019.05.26 13:31:32 16992  over all files/sec (CPU time) = 330.36
+STATISTIC 2019.05.26 13:31:32 16992                      CPU usage = 4.00%
+INFO      2019.05.26 13:31:32 16992 removing lock file </tmp/storeBackup.lock>
+END       2019.05.26 13:31:32 16992 backing up directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3> to </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions/2019.05.26_13.31.18>
+BEGIN     2019.06.04 19:39:17 17211 backing up directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3> to </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions>
+VERSION   2019.06.04 19:39:17 17211 storeBackup.pl, 3.5
+INFO      2019.06.04 19:39:17 17211 setting ARG_MAX to 63488 (Linux)
+INFO      2019.06.04 19:39:17 17211 comprRule = $size > 10000000 and not $file =~ /\.zip\Z|\.bz2\Z|\.gz\Z|\.tgz\Z|\.jpg\Z|\.gif\Z|\.tiff?\Z|\.mpe?g\Z|\.mp[34]\Z|\.mpe?[34]\Z|\.ogg\Z|\.gpg\Z|\.png\Z|\.lzma\Z|\.xz\Z|\.mov\Z/i
+INFO      2019.06.04 19:39:17 17211 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3> for existing backups
+INFO      2019.06.04 19:39:17 17211 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Literatur> for existing backups
+INFO      2019.06.04 19:39:17 17211 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/sourcecode_output_Data> for existing backups
+INFO      2019.06.04 19:39:17 17211 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Daten_FF> for existing backups
+INFO      2019.06.04 19:39:17 17211 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/documentation> for existing backups
+INFO      2019.06.04 19:39:17 17211 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/documentation/gnuplot_pictures> for existing backups
+INFO      2019.06.04 19:39:17 17211 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/documentation/gnuplot_pictures/final_pictures> for existing backups
+INFO      2019.06.04 19:39:17 17211 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/documentation/gnuplot_pictures/generated_data_for_plot> for existing backups
+INFO      2019.06.04 19:39:17 17211 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/KdV_an_Christian> for existing backups
+INFO      2019.06.04 19:39:17 17211 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions> for existing backups
+INFO      2019.06.04 19:39:17 17211 scanning directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions/2019.04.20> for existing backups
+STATISTIC 2019.06.04 19:39:17 17211 found 10 backup series, 16 backups, 0 renamed backups
+INFO      2019.06.04 19:39:17 17211 consistency check finished successfully
+INFO      2019.06.04 19:39:17 17211 found no references to backups from lateLinks that need storeBackupUpdateBackup run
+INFO      2019.06.04 19:39:17 17211 excluding <Versions>:
+INFO      2019.06.04 19:39:17 17211     excluding </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions>
+INFO      2019.06.04 19:39:17 17211 target directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions> is in exception </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions> of source directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3>, ok
+INFO      2019.06.04 19:39:17 17211 creating lock file </tmp/storeBackup.lock>
+INFO      2019.06.04 19:39:17 17211 analysis of old Backups in </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions>:
+INFO      2019.06.04 19:39:17 17211    (16) Fri 2019.01.18_20.09.55 (136d23h): keepMinNumber17
+INFO      2019.06.04 19:39:17 17211    (15) Mon 2019.01.21_18.16.55 (134d1h): keepMinNumber16
+INFO      2019.06.04 19:39:17 17211    (14) Tue 2019.01.22_00.44.11 (133d18h): keepMinNumber15
+INFO      2019.06.04 19:39:17 17211    (13) Wed 2019.01.23_22.19.51 (131d21h): keepMinNumber14
+INFO      2019.06.04 19:39:17 17211    (12) Sun 2019.02.03_22.53.15 (120d20h): keepMinNumber13
+INFO      2019.06.04 19:39:17 17211    (11) Fri 2019.02.08_09.54.45 (116d9h): keepMinNumber12
+INFO      2019.06.04 19:39:17 17211    (10) Mon 2019.02.25_15.28.59 (99d4h): keepMinNumber11
+INFO      2019.06.04 19:39:17 17211    (9) Tue 2019.03.05_00.15.35 (91d19h): keepMinNumber10
+INFO      2019.06.04 19:39:17 17211    (8) Wed 2019.03.27_18.42.32 (69d0h): keepMinNumber9
+INFO      2019.06.04 19:39:17 17211    (7) Thu 2019.04.11_21.38.16 (53d22h): keepMinNumber8
+INFO      2019.06.04 19:39:17 17211    (6) Tue 2019.04.16_15.34.31 (49d4h): keepMinNumber7
+INFO      2019.06.04 19:39:17 17211    (5) Wed 2019.05.08_17.35.07 (27d2h): keepMinNumber6, keepWeekDays(30d)
+INFO      2019.06.04 19:39:17 17211    (4) Wed 2019.05.15_17.02.25 (20d2h): keepMinNumber5, keepWeekDays(30d)
+INFO      2019.06.04 19:39:17 17211    (3) Thu 2019.05.16_18.15.00 (19d1h): keepMinNumber4, keepWeekDays(30d)
+INFO      2019.06.04 19:39:17 17211    (2) Fri 2019.05.24_19.01.59 (11d0h): keepMinNumber3, keepWeekDays(30d)
+INFO      2019.06.04 19:39:17 17211    (1) Sun 2019.05.26_13.31.18 (9d6h): keepMinNumber2, keepWeekDays(30d)
+INFO      2019.06.04 19:39:17 17211    (0) Tue 2019.06.04_19.39.17 (0d0h): keepMinNumber1, keepWeekDays(30d)
+INFO      2019.06.04 19:39:18 17211 start reading /home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions/2019.05.26_13.31.18/.md5CheckSums.bz2
+INFO      2019.06.04 19:39:18 17211 finished reading /home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions/2019.05.26_13.31.18/.md5CheckSums.bz2 (193 entries)
+INFO      2019.06.04 19:39:18 17211 185 entries in dbm files
+INFO      2019.06.04 19:39:18 17211 0 entries in dbm block files
+INFO      2019.06.04 19:39:24 17211 setting atime, mtime of directories ...
+INFO      2019.06.04 19:39:24 17211 syncing ...
+STATISTIC 2019.06.04 19:39:25 17211  [sec] |      user|    system
+STATISTIC 2019.06.04 19:39:25 17211 -------+----------+----------
+STATISTIC 2019.06.04 19:39:25 17211 process|      0.30|      0.12
+STATISTIC 2019.06.04 19:39:25 17211 childs |      3.69|      0.09
+STATISTIC 2019.06.04 19:39:25 17211 -------+----------+----------
+STATISTIC 2019.06.04 19:39:25 17211 sum    |      3.99|      0.21 => 4.20 (4s)
+STATISTIC 2019.06.04 19:39:25 17211                    directories = 9
+STATISTIC 2019.06.04 19:39:25 17211                          files = 208
+STATISTIC 2019.06.04 19:39:25 17211                 symbolic links = 0
+STATISTIC 2019.06.04 19:39:25 17211                     late links = 0
+STATISTIC 2019.06.04 19:39:25 17211                    named pipes = 0
+STATISTIC 2019.06.04 19:39:25 17211                        sockets = 0
+STATISTIC 2019.06.04 19:39:25 17211                  block devices = 0
+STATISTIC 2019.06.04 19:39:25 17211              character devices = 0
+STATISTIC 2019.06.04 19:39:25 17211      new internal linked files = 0
+STATISTIC 2019.06.04 19:39:25 17211               old linked files = 158
+STATISTIC 2019.06.04 19:39:25 17211                unchanged files = 158
+STATISTIC 2019.06.04 19:39:25 17211                   copied files = 49
+STATISTIC 2019.06.04 19:39:25 17211               compressed files = 1
+STATISTIC 2019.06.04 19:39:25 17211                  blocked files = 0
+STATISTIC 2019.06.04 19:39:25 17211    excluded files because rule = 0 (0.0 )
+STATISTIC 2019.06.04 19:39:25 17211    included files because rule = 0 (0.0 )
+STATISTIC 2019.06.04 19:39:25 17211         max size of copy queue = 1
+STATISTIC 2019.06.04 19:39:25 17211  max size of compression queue = 1
+STATISTIC 2019.06.04 19:39:25 17211            calculated md5 sums = 114
+STATISTIC 2019.06.04 19:39:25 17211                    forks total = 8
+STATISTIC 2019.06.04 19:39:25 17211                      forks md5 = 6
+STATISTIC 2019.06.04 19:39:25 17211                     forks copy = 1
+STATISTIC 2019.06.04 19:39:25 17211                    forks bzip2 = 1
+STATISTIC 2019.06.04 19:39:25 17211                  sum of source = 319M (334580861)
+STATISTIC 2019.06.04 19:39:25 17211              sum of target all = 290M (304298108)
+STATISTIC 2019.06.04 19:39:25 17211              sum of target all = 90.95%
+STATISTIC 2019.06.04 19:39:25 17211              sum of target new =  13M (13730121)
+STATISTIC 2019.06.04 19:39:25 17211              sum of target new = 4.10%
+STATISTIC 2019.06.04 19:39:25 17211             sum of md5ed files =  42M (44169510)
+STATISTIC 2019.06.04 19:39:25 17211             sum of md5ed files = 13.20%
+STATISTIC 2019.06.04 19:39:25 17211     sum internal linked (copy) = 0.0  (0)
+STATISTIC 2019.06.04 19:39:25 17211    sum internal linked (compr) = 0.0  (0)
+STATISTIC 2019.06.04 19:39:25 17211          sum old linked (copy) =  53M (55142097)
+STATISTIC 2019.06.04 19:39:25 17211         sum old linked (compr) = 225M (235425890)
+STATISTIC 2019.06.04 19:39:25 17211           sum unchanged (copy) =  53M (55142097)
+STATISTIC 2019.06.04 19:39:25 17211          sum unchanged (compr) = 225M (235425890)
+STATISTIC 2019.06.04 19:39:25 17211                 sum new (copy) = 3.2M (3405780)
+STATISTIC 2019.06.04 19:39:25 17211                sum new (compr) = 9.8M (10324341)
+STATISTIC 2019.06.04 19:39:25 17211     sum new (compr), orig size =  39M (40607094)
+STATISTIC 2019.06.04 19:39:25 17211                 sum new / orig = 31.20%
+STATISTIC 2019.06.04 19:39:25 17211       size of md5CheckSum file = 8.6k (8803)
+STATISTIC 2019.06.04 19:39:25 17211     size of temporary db files = 0.0  (0)
+STATISTIC 2019.06.04 19:39:25 17211            deleted old backups = 0
+STATISTIC 2019.06.04 19:39:25 17211            deleted directories = 0
+STATISTIC 2019.06.04 19:39:25 17211                  deleted files = 0
+STATISTIC 2019.06.04 19:39:25 17211           (only) removed links = 0
+STATISTIC 2019.06.04 19:39:25 17211 freed space in old directories = 0.0  (0)
+STATISTIC 2019.06.04 19:39:25 17211       add. used space in files =  13M (13738924)
+STATISTIC 2019.06.04 19:39:25 17211                backup duration = 8s
+STATISTIC 2019.06.04 19:39:25 17211 over all files/sec (real time) = 26.00
+STATISTIC 2019.06.04 19:39:25 17211  over all files/sec (CPU time) = 49.52
+STATISTIC 2019.06.04 19:39:25 17211                      CPU usage = 52.50%
+INFO      2019.06.04 19:39:25 17211 removing lock file </tmp/storeBackup.lock>
+END       2019.06.04 19:39:25 17211 backing up directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3> to </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/Versions/2019.06.04_19.39.17>
+ERROR     2019.07.11 21:02:09 27050 backupDir directory </home/home/christian/Gedankenspeicher/Dropbox/Comp-Physics-3/> does not exist
+try 'storeBackup.pl --help' to get a description of the options.
+
+ERROR     2019.07.11 21:02:09 27050 caught signal 1, terminating
+BEGIN     2019.07.11 21:04:06 27104 backing up directory </home/home/christian/Gedankenspeicher/Comp-Physics-3> to </home/home/christian/Gedankenspeicher/Comp-Physics-3/Versions>
+VERSION   2019.07.11 21:04:06 27104 storeBackup.pl, 3.5
+INFO      2019.07.11 21:04:06 27104 setting ARG_MAX to 63488 (Linux)
+INFO      2019.07.11 21:04:06 27104 comprRule = $size > 10000000 and not $file =~ /\.zip\Z|\.bz2\Z|\.gz\Z|\.tgz\Z|\.jpg\Z|\.gif\Z|\.tiff?\Z|\.mpe?g\Z|\.mp[34]\Z|\.mpe?[34]\Z|\.ogg\Z|\.gpg\Z|\.png\Z|\.lzma\Z|\.xz\Z|\.mov\Z/i
+INFO      2019.07.11 21:04:06 27104 scanning directory </home/home/christian/Gedankenspeicher/Comp-Physics-3> for existing backups
+INFO      2019.07.11 21:04:06 27104 scanning directory </home/home/christian/Gedankenspeicher/Comp-Physics-3/Literatur> for existing backups
+INFO      2019.07.11 21:04:06 27104 scanning directory </home/home/christian/Gedankenspeicher/Comp-Physics-3/sourcecode_output_Data> for existing backups
+INFO      2019.07.11 21:04:06 27104 scanning directory </home/home/christian/Gedankenspeicher/Comp-Physics-3/Daten_FF> for existing backups
+INFO      2019.07.11 21:04:06 27104 scanning directory </home/home/christian/Gedankenspeicher/Comp-Physics-3/documentation> for existing backups
+INFO      2019.07.11 21:04:06 27104 scanning directory </home/home/christian/Gedankenspeicher/Comp-Physics-3/documentation/gnuplot_pictures> for existing backups
+INFO      2019.07.11 21:04:06 27104 scanning directory </home/home/christian/Gedankenspeicher/Comp-Physics-3/documentation/gnuplot_pictures/final_pictures> for existing backups
+INFO      2019.07.11 21:04:06 27104 scanning directory </home/home/christian/Gedankenspeicher/Comp-Physics-3/documentation/gnuplot_pictures/generated_data_for_plot> for existing backups
+INFO      2019.07.11 21:04:06 27104 scanning directory </home/home/christian/Gedankenspeicher/Comp-Physics-3/.vscode> for existing backups
+INFO      2019.07.11 21:04:06 27104 scanning directory </home/home/christian/Gedankenspeicher/Comp-Physics-3/KdV_an_Christian> for existing backups
+INFO      2019.07.11 21:04:06 27104 scanning directory </home/home/christian/Gedankenspeicher/Comp-Physics-3/Versions> for existing backups
+STATISTIC 2019.07.11 21:04:06 27104 found 10 backup series, 7 backups, 0 renamed backups
+INFO      2019.07.11 21:04:06 27104 consistency check finished successfully
+INFO      2019.07.11 21:04:06 27104 found no references to backups from lateLinks that need storeBackupUpdateBackup run
+INFO      2019.07.11 21:04:06 27104 excluding <Versions>:
+INFO      2019.07.11 21:04:06 27104     excluding </home/home/christian/Gedankenspeicher/Comp-Physics-3/Versions>
+INFO      2019.07.11 21:04:06 27104 target directory </home/home/christian/Gedankenspeicher/Comp-Physics-3/Versions> is in exception </home/home/christian/Gedankenspeicher/Comp-Physics-3/Versions> of source directory </home/home/christian/Gedankenspeicher/Comp-Physics-3>, ok
+INFO      2019.07.11 21:04:06 27104 creating lock file </tmp/storeBackup.lock>
+INFO      2019.07.11 21:04:06 27104 analysis of old Backups in </home/home/christian/Gedankenspeicher/Comp-Physics-3/Versions>:
+INFO      2019.07.11 21:04:06 27104    (7) Fri 2019.01.18_20.09.55 (174d0h): keepMinNumber8
+INFO      2019.07.11 21:04:06 27104    (6) Mon 2019.01.21_18.16.55 (171d2h): keepMinNumber7
+INFO      2019.07.11 21:04:06 27104    (5) Tue 2019.01.22_00.44.11 (170d20h): keepMinNumber6
+INFO      2019.07.11 21:04:06 27104    (4) Wed 2019.01.23_22.19.51 (168d22h): keepMinNumber5
+INFO      2019.07.11 21:04:06 27104    (3) Sun 2019.02.03_22.53.15 (157d22h): keepMinNumber4
+INFO      2019.07.11 21:04:06 27104    (2) Fri 2019.02.08_09.54.45 (153d11h): keepMinNumber3
+INFO      2019.07.11 21:04:06 27104    (1) Mon 2019.02.25_15.28.59 (136d5h): keepMinNumber2
+INFO      2019.07.11 21:04:06 27104    (0) Thu 2019.07.11_21.04.06 (0d0h): keepMinNumber1, keepWeekDays(30d)
+INFO      2019.07.11 21:04:06 27104 start reading /home/home/christian/Gedankenspeicher/Comp-Physics-3/Versions/2019.02.25_15.28.59/.md5CheckSums.bz2
+INFO      2019.07.11 21:04:06 27104 finished reading /home/home/christian/Gedankenspeicher/Comp-Physics-3/Versions/2019.02.25_15.28.59/.md5CheckSums.bz2 (33 entries)
+INFO      2019.07.11 21:04:06 27104 31 entries in dbm files
+INFO      2019.07.11 21:04:06 27104 0 entries in dbm block files
+INFO      2019.07.11 21:04:22 27104 setting atime, mtime of directories ...
+INFO      2019.07.11 21:04:22 27104 syncing ...
+STATISTIC 2019.07.11 21:04:24 27104  [sec] |      user|    system
+STATISTIC 2019.07.11 21:04:24 27104 -------+----------+----------
+STATISTIC 2019.07.11 21:04:24 27104 process|      0.39|      0.14
+STATISTIC 2019.07.11 21:04:24 27104 childs |     37.90|      0.83
+STATISTIC 2019.07.11 21:04:24 27104 -------+----------+----------
+STATISTIC 2019.07.11 21:04:24 27104 sum    |     38.29|      0.97 => 39.26 (39s)
+STATISTIC 2019.07.11 21:04:24 27104                    directories = 10
+STATISTIC 2019.07.11 21:04:24 27104                          files = 233
+STATISTIC 2019.07.11 21:04:24 27104                 symbolic links = 0
+STATISTIC 2019.07.11 21:04:24 27104                     late links = 0
+STATISTIC 2019.07.11 21:04:24 27104                    named pipes = 0
+STATISTIC 2019.07.11 21:04:24 27104                        sockets = 0
+STATISTIC 2019.07.11 21:04:24 27104                  block devices = 0
+STATISTIC 2019.07.11 21:04:24 27104              character devices = 0
+STATISTIC 2019.07.11 21:04:24 27104      new internal linked files = 12
+STATISTIC 2019.07.11 21:04:24 27104               old linked files = 27
+STATISTIC 2019.07.11 21:04:24 27104                unchanged files = 39
+STATISTIC 2019.07.11 21:04:24 27104                   copied files = 176
+STATISTIC 2019.07.11 21:04:24 27104               compressed files = 18
+STATISTIC 2019.07.11 21:04:24 27104                  blocked files = 0
+STATISTIC 2019.07.11 21:04:24 27104    excluded files because rule = 0 (0.0 )
+STATISTIC 2019.07.11 21:04:24 27104    included files because rule = 0 (0.0 )
+STATISTIC 2019.07.11 21:04:24 27104         max size of copy queue = 41
+STATISTIC 2019.07.11 21:04:24 27104  max size of compression queue = 11
+STATISTIC 2019.07.11 21:04:24 27104            calculated md5 sums = 415
+STATISTIC 2019.07.11 21:04:24 27104                    forks total = 44
+STATISTIC 2019.07.11 21:04:24 27104                      forks md5 = 9
+STATISTIC 2019.07.11 21:04:24 27104                     forks copy = 17
+STATISTIC 2019.07.11 21:04:24 27104                    forks bzip2 = 18
+STATISTIC 2019.07.11 21:04:24 27104                  sum of source = 285M (298938585)
+STATISTIC 2019.07.11 21:04:24 27104              sum of target all = 151M (158417835)
+STATISTIC 2019.07.11 21:04:24 27104              sum of target all = 52.99%
+STATISTIC 2019.07.11 21:04:24 27104              sum of target new = 145M (152182359)
+STATISTIC 2019.07.11 21:04:24 27104              sum of target new = 50.91%
+STATISTIC 2019.07.11 21:04:24 27104             sum of md5ed files = 280M (294087987)
+STATISTIC 2019.07.11 21:04:24 27104             sum of md5ed files = 98.38%
+STATISTIC 2019.07.11 21:04:24 27104     sum internal linked (copy) = 1.0M (1041340)
+STATISTIC 2019.07.11 21:04:24 27104    sum internal linked (compr) = 0.0  (0)
+STATISTIC 2019.07.11 21:04:24 27104          sum old linked (copy) = 798k (816940)
+STATISTIC 2019.07.11 21:04:24 27104         sum old linked (compr) = 4.2M (4377196)
+STATISTIC 2019.07.11 21:04:24 27104           sum unchanged (copy) = 1.8M (1858280)
+STATISTIC 2019.07.11 21:04:24 27104          sum unchanged (compr) = 4.2M (4377196)
+STATISTIC 2019.07.11 21:04:24 27104                 sum new (copy) =  55M (57616379)
+STATISTIC 2019.07.11 21:04:24 27104                sum new (compr) =  90M (94565980)
+STATISTIC 2019.07.11 21:04:24 27104     sum new (compr), orig size = 224M (235086730)
+STATISTIC 2019.07.11 21:04:24 27104                 sum new / orig = 51.99%
+STATISTIC 2019.07.11 21:04:24 27104       size of md5CheckSum file = 9.1k (9271)
+STATISTIC 2019.07.11 21:04:24 27104     size of temporary db files = 0.0  (0)
+STATISTIC 2019.07.11 21:04:24 27104            deleted old backups = 0
+STATISTIC 2019.07.11 21:04:24 27104            deleted directories = 0
+STATISTIC 2019.07.11 21:04:24 27104                  deleted files = 0
+STATISTIC 2019.07.11 21:04:24 27104           (only) removed links = 0
+STATISTIC 2019.07.11 21:04:24 27104 freed space in old directories = 0.0  (0)
+STATISTIC 2019.07.11 21:04:24 27104       add. used space in files = 145M (152191630)
+STATISTIC 2019.07.11 21:04:24 27104                backup duration = 18s
+STATISTIC 2019.07.11 21:04:24 27104 over all files/sec (real time) = 12.94
+STATISTIC 2019.07.11 21:04:24 27104  over all files/sec (CPU time) = 5.93
+STATISTIC 2019.07.11 21:04:24 27104                      CPU usage = 218.11%
+INFO      2019.07.11 21:04:24 27104 removing lock file </tmp/storeBackup.lock>
+END       2019.07.11 21:04:24 27104 backing up directory </home/home/christian/Gedankenspeicher/Comp-Physics-3> to </home/home/christian/Gedankenspeicher/Comp-Physics-3/Versions/2019.07.11_21.04.06>

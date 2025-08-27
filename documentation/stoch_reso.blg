@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: stoch_reso.aux
+The style file: plainnat.bst
+Database file #1: Exported.bib
+Warning--empty journal in gammaitoni_stochastic_1998
+Warning--empty year in gammaitoni_stochastic_1998
+Warning--empty year in gammaitoni_stochastic_1998
+Warning--empty journal in rouvas-nicolis_stochastic_2007
+Warning--empty year in rouvas-nicolis_stochastic_2007
+Warning--empty year in rouvas-nicolis_stochastic_2007
+Warning--empty year in duan_numerical_2012
+Warning--empty year in duan_numerical_2012
+Warning--empty year in oksendal_stochastic_2007
+Warning--empty year in oksendal_stochastic_2007
+You've used 4 entries,
+            2773 wiz_defined-function locations,
+            625 strings with 5786 characters,
+and the built_in function-call counts, 2040 in all, are:
+= -- 193
+> -- 91
+< -- 4
++ -- 31
+- -- 27
+* -- 170
+:= -- 317
+add.period$ -- 24
+call.type$ -- 4
+change.case$ -- 20
+chr.to.int$ -- 4
+cite$ -- 18
+duplicate$ -- 94
+empty$ -- 165
+format.name$ -- 33
+if$ -- 425
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 5
+newline$ -- 38
+num.names$ -- 18
+pop$ -- 52
+preamble$ -- 1
+purify$ -- 16
+quote$ -- 0
+skip$ -- 56
+stack$ -- 0
+substring$ -- 77
+swap$ -- 11
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 39
+warning$ -- 10
+while$ -- 19
+width$ -- 0
+write$ -- 75
+(There were 10 warnings)

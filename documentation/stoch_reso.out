@@ -1,0 +1,14 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Stochastic Resonance Equation}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Numerical solution method: Euler-Maruyama}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Kramers formula - Kramers rate}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Stochastic resonance}{section.2}% 5
+\BOOKMARK [1][-]{section.3}{Numerical investigation of our stochastic DGL}{}% 6
+\BOOKMARK [2][-]{subsection.3.1}{Setup the simulation}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.2}{Verification of the Kramers formula}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.3}{Response examination in dependence of noise}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.4}{Examine non-linear properties of the signals amplitude \040A }{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.5}{Dependency of the time step \040grayt}{section.3}% 11
+\BOOKMARK [1][-]{section.4}{Summary}{}% 12
+\BOOKMARK [1][-]{section*.10}{Appendices}{}% 13
+\BOOKMARK [1][-]{Appendix.1.A}{Code}{}% 14

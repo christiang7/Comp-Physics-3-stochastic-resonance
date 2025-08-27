@@ -1,0 +1,42 @@
+\begin{thebibliography}{4}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Gammaitoni et~al.()Gammaitoni, Hänggi, Jung, and
+  Marchesoni]{gammaitoni_stochastic_1998}
+Luca Gammaitoni, Peter Hänggi, Peter Jung, and Fabio Marchesoni.
+\newblock Stochastic resonance.
+\newblock 70\penalty0 (1):\penalty0 223--287.
+\newblock \doi{10.1103/RevModPhys.70.223}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/RevModPhys.70.223}.
+
+\bibitem[Rouvas-Nicolis and Nicolis()]{rouvas-nicolis_stochastic_2007}
+Catherine Rouvas-Nicolis and Gregoire Nicolis.
+\newblock Stochastic resonance - scholarpedia.
+\newblock 2\penalty0 (11):\penalty0 1474.
+\newblock ISSN 1941-6016.
+\newblock \doi{10.4249/scholarpedia.1474}.
+\newblock URL \url{http://www.scholarpedia.org/article/Stochastic_resonance}.
+
+\bibitem[Sauer()]{duan_numerical_2012}
+Timothy Sauer.
+\newblock Numerical solution of stochastic differential equations in finance.
+\newblock In Jin-Chuan Duan, Wolfgang~Karl Härdle, and James~E. Gentle,
+  editors, \emph{Handbook of Computational Finance}, pages 529--550. Springer
+  Berlin Heidelberg.
+\newblock ISBN 978-3-642-17253-3 978-3-642-17254-0.
+\newblock \doi{10.1007/978-3-642-17254-0_19}.
+\newblock URL \url{http://link.springer.com/10.1007/978-3-642-17254-0_19}.
+
+\bibitem[Øksendal()]{oksendal_stochastic_2007}
+B.~K. Øksendal.
+\newblock \emph{Stochastic differential equations: an introduction with
+  applications}.
+\newblock Universitext. Springer, 6th ed., corr. 4th print edition.
+\newblock ISBN 978-3-540-04758-2.
+\newblock {OCLC}: ocn166267310.
+
+\end{thebibliography}

@@ -1,0 +1,16 @@
+\babel@toc {english}{}
+\babel@toc {english}{}
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}
+\contentsline {section}{\numberline {2}Stochastic Resonance Equation}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}Numerical solution method: Euler-Maruyama}{2}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Kramers formula - Kramers rate}{3}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Stochastic resonance}{3}{subsection.2.3}
+\contentsline {section}{\numberline {3}Numerical investigation of our stochastic DGL}{4}{section.3}
+\contentsline {subsection}{\numberline {3.1}Setup the simulation}{4}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Verification of the Kramers formula}{5}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Response examination in dependence of noise}{6}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Examine non-linear properties of the signals amplitude $ A $}{8}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Dependency of the time step $ \Delta \leavevmode \begingroup \color {gray}t\endgroup $}{10}{subsection.3.5}
+\contentsline {section}{\numberline {4}Summary}{11}{section.4}
+\contentsline {section}{Appendices}{12}{section*.10}
+\contentsline {section}{\numberline {A}Code}{12}{Appendix.1.A}
